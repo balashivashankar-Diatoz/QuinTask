@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  LocoKit
+
+  Created by Matt Greenfield on 26/1/20.
+  Copyright © 2020 Big Paua. All rights reserved.
+*/
+
+"Unknown" = "Inconnu";
+"Bogus" = "Faux mouvement";
+"Transport" = "Transport";
+"Data Gap" = "Données manquantes";
+
+// base types
+"Stationary" = "Stationnaire";
+"Walking" = "Marche";
+"Running" = "Course à pied";
+"Cycling" = "Vélo";
+"Car" = "Voiture";
+"Airplane" = "Avion";
+
+// extended types
+"Train" = "Train";
+"Bus" = "Bus";
+"Motorcycle" = "Moto";
+"Boat" = "Bateau";
+"Tram" = "Tramway";
+"Tractor" = "Tracteur";
+"Tuk-Tuk" = "Tuk-Tuk";
+"Songthaew" = "Songthaew";
+"Scooter" = "Scooter";
+"Metro" = "Métro";
+"Cable Car" = "Téléphérique";
+"Funicular" = "Funiculaire";
+"Chairlift" = "Télésiège";
+"Ski Lift" = "Téléski";
+"Taxi" = "Taxi";
+
+// active types
+"Skateboarding" = "Skateboard";
+"Inline Skating" = "Roller";
+"Snowboarding" = "Snowboard";
+"Skiing" = "Ski";
+"Horseback" = "Equitation";
+"Swimming" = "Natation";
+"Golf" = "Golf";
+"Wheelchair" = "Fauteuil roulant";
+"Rowing" = "Aviron";
+"Kayaking" = "Kayak";

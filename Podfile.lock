@@ -1,0 +1,32 @@
+PODS:
+  - GRDB.swift (4.14.0):
+    - GRDB.swift/standard (= 4.14.0)
+  - GRDB.swift/standard (4.14.0)
+  - LocoKit (7.0.0):
+    - LocoKit/Base (= 7.0.0)
+  - LocoKit/Base (7.0.0):
+    - GRDB.swift (~> 4)
+    - LocoKitCore (= 7.0.0)
+    - Upsurge (~> 0.10)
+  - LocoKitCore (7.0.0)
+  - Upsurge (0.10.2)
+
+DEPENDENCIES:
+  - LocoKit
+
+SPEC REPOS:
+  trunk:
+    - GRDB.swift
+    - LocoKit
+    - LocoKitCore
+    - Upsurge
+
+SPEC CHECKSUMS:
+  GRDB.swift: 8cc3ab7c8b8b4ac1761deb8dca4b51c1c9d429f8
+  LocoKit: 8a06074e90dfd24ee10e94c9f5274e300f6b9d2f
+  LocoKitCore: 30cff6a1e4ac5a32eefe232c19e24fd79485661d
+  Upsurge: 5866beadc3da27f91c5df4ac795deb3f3238d678
+
+PODFILE CHECKSUM: 9169c89e304e96457e8f9d95d11a7c6990e6db19
+
+COCOAPODS: 1.12.1

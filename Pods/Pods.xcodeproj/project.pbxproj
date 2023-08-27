@@ -1,0 +1,1983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7248CFD42349B334F2AA6A390906D204 /* LocoKitCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BE2642F5437F5DD6A65EDD5C06C71CB0 /* Build configuration list for PBXAggregateTarget "LocoKitCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LocoKitCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		011304869F415ED4276713DCF7E355B9 /* SQLCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0747E004A8FC515FD4DC1A1CB6714FA3 /* SQLCollection.swift */; };
+		02C070F06F356DBEA2D15E36A58DF350 /* CoordinateTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F413F7BFECD9F59562C32DF8AC951FD /* CoordinateTrust.swift */; };
+		02FC449BFDCBF8CCE87CCB10B7C3C8F1 /* TableRecord+QueryInterfaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645A3B910A854D2D7C34912F3C00585 /* TableRecord+QueryInterfaceRequest.swift */; };
+		031C0BFEACB5DC69E18B4D4E5D81CA34 /* ValueArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA7988460D999092209539B7A52372 /* ValueArraySlice.swift */; };
+		0347302333A64A122C532CE2B8C4E739 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE685497FDB5E7D4D3EA48EAE6B03BF /* CGFloat.swift */; };
+		0538B28A29F98978AE5078A62A98EED9 /* DatabaseRegionObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3F1D4DC7C3E09B5F710212899394F /* DatabaseRegionObservation.swift */; };
+		07F79E3B917827C3D21342F66A6FA152 /* LinearOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06BA8D7014384670FFFF334EC3E00B /* LinearOperators.swift */; };
+		086F38401CE5BE10B286F5800FD21E46 /* DatabaseRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23173EEE83E19549268186FFDE5C142C /* DatabaseRegion.swift */; };
+		09B5EBB139872633634F0AC0F637F92E /* RecordingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF619AD05F3D58DC66DE3A7D3F51923D /* RecordingState.swift */; };
+		0B2775C726A9493E4B4FF9BBD70DBCE5 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E1B52633A6B0A5B41358C564641E6 /* Sequence.swift */; };
+		0BFDB17BFEA6850A266678722A096460 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8FA4D8E85E004D2D98111D2AE734C1 /* Tensor.swift */; };
+		0D2760E44976D645FBED264D73A96111 /* Pods-AppleMapsFirstProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B763633FCBB147ACFDE8034D382D6DB /* Pods-AppleMapsFirstProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E85635D62BC26BDA4BD996FD0186E56 /* FetchedRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152B0914231F14F610E62C290E43CAC /* FetchedRecordsController.swift */; };
+		0E95BD9372C6F7C4279167F7BE91B70A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8CF4679A438BB043006AE1B7F617C /* Foundation.framework */; };
+		0EC7D3EB3FB71FBD4F7FF778CC729C72 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AAB6CB059C44411274602350E9ECF /* Database.swift */; };
+		0F21F8D3F4225F09BF3BD44B170F7D47 /* FetchableRecord+TableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0A19F8D66C6CBCDCE06547769A81B /* FetchableRecord+TableRecord.swift */; };
+		10EB6AC8883AC198AADAF0FAA633449F /* SQLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B02C35ECF2E0A975A31A6EC1A6D4 /* SQLOperators.swift */; };
+		12EEACADC81AFD0E775F6C65455784B0 /* FTS3Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F53DE93C4BE0568644B5227DDF20EB /* FTS3Pattern.swift */; };
+		13D065EEF688B606D9E83083FC1DDDC8 /* ValueObservation+FetchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF2CDD45B09794FA7875B6FAC41D6F /* ValueObservation+FetchableRecord.swift */; };
+		13EDC28021F75AFC8FABE6E6E647C42E /* LocoKitCoreBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380F90340EF72C7A3418130D844957A /* LocoKitCoreBridge.swift */; };
+		1478C2BEF4565D778AFAFBA5689B2257 /* FTS5Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F991307CE7047A2DF0E746F3E15734C0 /* FTS5Pattern.swift */; };
+		15448B84C7DDC53962E68C7A4C5A5BCD /* KeyPathRefining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8E603D4B2DF3162907FD015B2A212 /* KeyPathRefining.swift */; };
+		155570771195BB12317FA005CD2708AC /* TimelineProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E0794FAD9E4808A9C813FD18DDFC80 /* TimelineProcessor.swift */; };
+		15CC5B7CDFA3401E9D4B5191F6E552FF /* FTS3+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B904BEBF5B6FEE367231FDC2F25D74F7 /* FTS3+QueryInterface.swift */; };
+		17BC362DAC479F3718FD41B7189970EC /* StringTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C0625B5DD6550BA2FABB7D84DEA4F /* StringTools.swift */; };
+		180D19C3FB2C35A20A737865CFBAD930 /* FTS3TokenizerDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0C3B137ED78CEE0028D1EEC3054FB /* FTS3TokenizerDescriptor.swift */; };
+		1813825EEB4CC1F6916691B6EC6B2E01 /* Inflections+English.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72E72E57233B23ED640B9732231D3E /* Inflections+English.swift */; };
+		19E1FC636695C6F519D01E2606BC44A4 /* DatabaseValueConvertible+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A0825BF77D61C27EE8A9EB3FF658F /* DatabaseValueConvertible+Decodable.swift */; };
+		1A74A8773E1FE7E1C8C6FEE0C1AFD891 /* Inflections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C96A2B146663383E669B33F711478B /* Inflections.swift */; };
+		1ABD482B1E5EB8724D52115D70EBADAA /* CoordinateTrustManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CF8B98B7D30D61C9A532185BCB7B18 /* CoordinateTrustManager.swift */; };
+		1C08832E7649B069F7A9F42F50DEACBF /* ActivityType.scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2726A8C2B1AE951EAEBA0D93ADDD0F5 /* ActivityType.scores.swift */; };
+		1DA4B3EAF04B0CEADEBA158F0706AAFC /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F248CB58AC8EB24B0EFDAEECECD59 /* OrderedDictionary.swift */; };
+		1FBF366B42872675E9AF89A22EAE236F /* FTS5CustomTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A932050D29D5D6B590DF99FF1D82F /* FTS5CustomTokenizer.swift */; };
+		1FF79CDA4A3B230C02F53906D1D52A97 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5CB8228442D49F6D2FA9172919420 /* Merge.swift */; };
+		20D46EF1C462DA3453B5A463D097B34D /* ComplexArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B90DCEBEEBF79221FAADE497DDC79D /* ComplexArray.swift */; };
+		218E6CA1F0FE942EE2ED160DAB206235 /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6F2E987D4891EAF531F154485564B /* UUID.swift */; };
+		22498FAC7319AE45C0BE18D98590C580 /* SQLQueryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF054FAC27825DDA41ABC13C72958B1 /* SQLQueryGenerator.swift */; };
+		235F054078AA08E524D25855A0571BD0 /* ItemSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4024FBE0C462F0BA4428F58B4D81E86D /* ItemSegment.swift */; };
+		2457850D604A36099A248EE6951B5557 /* ArrayTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC34C782AB4C1951E7A1CFD22A487A /* ArrayTools.swift */; };
+		249E51765D631E48CBB8DABE46CBCA44 /* ComplexArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25F556251D5FA6C3176DD5E48CC6C78 /* ComplexArithmetic.swift */; };
+		25314C3A239482BA8C6AFE7430E17996 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6616975D250A9C7F8B4A5F8AA76BA7E /* Exponential.swift */; };
+		27326CFE6483A7E3C1F4E15D92C6E4DB /* TimelineStore+Migrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D97B759BCD8D5DFB7CB3C68D70EED4 /* TimelineStore+Migrations.swift */; };
+		295C020690674448AF8D47B4BD700D42 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401D8E1247BDDAD6B253A98DDE0DBA1 /* FTS4.swift */; };
+		297DCACF683A5DB3FCACFB6C329428C7 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EE0D0D3BA7AA9846039A595D00AF7D /* Visit.swift */; };
+		2A653E01796FA3F625539FD8C138D947 /* FTS5Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E514D8622C41D2E58DFE99DB006F633 /* FTS5Tokenizer.swift */; };
+		2B7DC83E2A1DAF4C6BF687E43F853A58 /* Localizable.fr.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7F7660B06EFE1E16CDD636F9277D5191 /* Localizable.fr.strings */; };
+		2C52BA8F0A67595721F9A3CD2CC192D4 /* EncodableRecord+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88599454D21BEADA9E0DCCF41BA7F4CA /* EncodableRecord+Encodable.swift */; };
+		2CF783A8BDD2659C17DACED53AFDA9B2 /* DatabaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3708EFC646DA9D3D0915620EA87BB /* DatabaseQueue.swift */; };
+		2D2E3A956A8C6C2E333638D7C3D4B7E3 /* Upsurge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA44E9BAC05D1865895FE6770762FCA /* Upsurge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FC02E933EC4466A287086F2049993FA /* DatabaseValueConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006DB9DA612F5F59DE4600B1885007FC /* DatabaseValueConversion.swift */; };
+		31D58C15311CC6E6D4D89A68CD88147F /* NSNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE2213D830F201581EFCED77F9C1A0 /* NSNull.swift */; };
+		326BBB640D5340086B65A84F20430802 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527DFFBF93476D9E0D8DC1D996441B7 /* DSP.swift */; };
+		32DD81A7771646C13FEBB74C3A6402A5 /* SQLQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932D3E3909D92FC80F207EC789135E1 /* SQLQuery.swift */; };
+		335B8403C85D284C8EC98C99B50D7636 /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4410EFC76FBDCB66038711E4601CEC2 /* NSString.swift */; };
+		35988181EE69B5CB61CCD98EEF31DE59 /* Real.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA672053D69BDF98AD879B91210896E /* Real.swift */; };
+		380F5F1A248EB05E80C71A8DD7498109 /* CLLocationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF2171DDEB61F6B5AFBF4931E7292 /* CLLocationTools.swift */; };
+		382079FF44975429E30502FBD8BEF666 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77546866AF68EFC7E02025DAA867A06C /* Trigonometric.swift */; };
+		3B14224F1B3916BC7D7AAE4545DF6644 /* SQLCollatedExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540D82CA5D71650A09C3694D213E1A9 /* SQLCollatedExpression.swift */; };
+		3BCFDCE672539FF8BB671D24FFE95059 /* Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD8CC1667AE2EF70BEE6552B174082 /* Histogram.swift */; };
+		3C2431501BAB73359820F579BEA44696 /* QueryInterfaceRequest+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA04636700E83A2F40E7DCF89C49C18 /* QueryInterfaceRequest+Association.swift */; };
+		3C70450A533594AE427906B623891436 /* FetchableRecord+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E565C4EC9985F14E1995EBDAE2262 /* FetchableRecord+Decodable.swift */; };
+		3D0DFB833878A2D83EB7C72BBADB24C4 /* AssociationAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B77DD88FAD0546CC119B7FDC3B6BF /* AssociationAggregate.swift */; };
+		3D97CD4BC4D1DD5B17F64311AD908F0A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CC22CA29144BDE648CD22BE78A370 /* Configuration.swift */; };
+		3EA818F055DD27B7D145514F9F1A9F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8CF4679A438BB043006AE1B7F617C /* Foundation.framework */; };
+		3EE62BA5472FD4ADD994D5CB5F4E32EC /* ValueReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993B36A631337CD7ADA4372CFA9FD1B /* ValueReducer.swift */; };
+		3F227910B0B1BF6839504D564DCFCC44 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55888A9D0D214728C0E11DDB76B127EA /* Utils.swift */; };
+		41EA5B6D810124C1D86C2FD8E1225B85 /* Localizable.en.strings in Sources */ = {isa = PBXBuildFile; fileRef = 9BB80EA0B41F19A369B054376AB74A74 /* Localizable.en.strings */; };
+		455B32DE281B0D37951C5872457E299C /* TimelineRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20649E1487C8E27545D35A36BA51EFE /* TimelineRecorder.swift */; };
+		45A9CA73768CFE4C2E6605CC12A34678 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC78B4F41955F25E426FEBED3BADC0C /* FTS5.swift */; };
+		45ED3BCD69A0CB5671866FCC7483BCA4 /* DatabaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2E7451269AEE5CCE04D21C16E16BFF /* DatabaseFunction.swift */; };
+		462622452CEC4B3D2899EE36E0612D74 /* SQLSelectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335A5B7791BA0A913A2432DDE4FA13F /* SQLSelectable.swift */; };
+		46CC7A81F1B416E013C1C7CE8A1807E1 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E6830103D7FFFEABFE58C259A60BC /* Record.swift */; };
+		47E57AF21148212E841DB232EAF4FB4E /* ValueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD4030AE15B0F0B32989DBCA95E2FF /* ValueArray.swift */; };
+		486D33D0AFFD4D04E44EA2841DA45EE0 /* SQLSpecificExpressible+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF161CD2E88BADCF4D7689A7624A15B0 /* SQLSpecificExpressible+QueryInterface.swift */; };
+		4AA6B01CE47A7CB705872E0CF1BA1E8B /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2593B7A7B2E9C8091C89D56EAB0ECFD /* Fetch.swift */; };
+		4CCAA8603FD2141FB03B9E32018A81EA /* ValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A116E885E0107251F8E36E5F98B4BA9 /* ValueObserver.swift */; };
+		4E45C259F0E81B776CCC688BFF31691F /* CoordinatesMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BE78EF405E98F305B6EEA86EABF48C /* CoordinatesMatrix.swift */; };
+		503101D5DA9174200570BD5A834A3C52 /* HasManyAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A36F1CA645664D31F3A28B2FC4EF41 /* HasManyAssociation.swift */; };
+		512D71282D0B2896004F1CA1FCEBEB01 /* HasOneAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B3D9B4F08BB132D96214D1705B08F /* HasOneAssociation.swift */; };
+		51367883BB4113C6F5651228549EBA0A /* 2DTensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECD77899385DF4683869D0B8C4005B /* 2DTensorSlice.swift */; };
+		51BA53DF38B799335E2ECBB76AF5A54D /* ClassifierResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B310EE116180B5BC82AE6900573B6D /* ClassifierResultItem.swift */; };
+		52D5CD986BE7FAB8D592D78926AD0844 /* TimelineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D73823F0252CEAFB436E337093FB9F /* TimelineSegment.swift */; };
+		53486B5CEFE3231E8A21A6AB1FA794D1 /* ComplexArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420B852FE40A27556797EBA5132E8E7 /* ComplexArraySlice.swift */; };
+		538AC13364217B01609F146E1E13104C /* TrustAssessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3170C4BBDFDE1A46152F5B92BC0274 /* TrustAssessor.swift */; };
+		541D418E52F6B06A7EF6C7818896B446 /* LinearType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B2E12B1522F2AD9B08C4D37B53C14 /* LinearType.swift */; };
+		55A6121F8B8968E5D6ECDF074600E619 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EA3E2695CCA49890BD29A4A5AB0523 /* Map.swift */; };
+		5622EA158DADFB1980223B2884FEB7EC /* ValueObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73230EF42FADE7B18B179F052A23E0 /* ValueObservation.swift */; };
+		563985C5330C1AA8995C29E9AD20B911 /* NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93CABF5989F38D273ACB8534036D38 /* NSNumber.swift */; };
+		5708183D95E362101F08231617EB9286 /* SQLExpressible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BB003819CE00F8D296A06B4EF0B4E /* SQLExpressible.swift */; };
+		58CB27252809D8E15B60C1D6ED6ACDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8CF4679A438BB043006AE1B7F617C /* Foundation.framework */; };
+		58E49A9B60A8FDE5E746A6952607CAD8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2431819EE7E1F4D5F9E4D172F484F0 /* Accelerate.framework */; };
+		5B314585CB58687498901D2116E8861A /* ValueObservation+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD251CA2B24D91BE30CB8F6C876366 /* ValueObservation+Row.swift */; };
+		5DC6682D01C9DDA5FEBB7270006FC9C6 /* Localizable.es.strings in Sources */ = {isa = PBXBuildFile; fileRef = C385D7008615FA437B1129C6DC638807 /* Localizable.es.strings */; };
+		5DD232DA697ACF8BE5A0A81C75F63815 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A867B06BABD90DA7713FF9C31FD823 /* Statement.swift */; };
+		5FAE410E6BAA8724B8BC0EFD7BA1DD26 /* TimelineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123AB0EE86BCAC2DA73ACEC3A32375F /* TimelineItem.swift */; };
+		62B192394E29FFDC27D1A2F16FDCFDE9 /* HasOneThroughAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C943EA4431713FBED32D87D59F798 /* HasOneThroughAssociation.swift */; };
+		641218E5EF048689CFDD6908AEDE2331 /* SQLForeignKeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCA08D25E5571E4762E6E46E25621F /* SQLForeignKeyRequest.swift */; };
+		64CEF4F52D6E58FDC809B55DEB0F4743 /* VirtualTableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C322F23C0E15037A9982AE904E98F /* VirtualTableModule.swift */; };
+		69AFB8EE5D7B252DCA8059AC949F52E6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96FD9C9B5E7A8743685705392270F14 /* Date.swift */; };
+		6A84D2F9CA1FC5DAB879A1F945CE72A1 /* MatrixArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78A5536D4CAFE542F7EC986052C897 /* MatrixArithmetic.swift */; };
+		6AE6B8B5B4BEFC57C9689336814DAAC4 /* Upsurge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCDFF19FD993F6D46CBC736BAC151B /* Upsurge-dummy.m */; };
+		6BBBBD736256999F30D86B135AFEB7A8 /* TimelineClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E582220DE444F3843DAEBCAD9BB0796F /* TimelineClassifier.swift */; };
+		6C4C36E33DD55BA90DF455CB00C7B062 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AC5286DBBB6A821A8EE3128D12184 /* Column.swift */; };
+		6F3B1B2787905B4746BA5A5389ABE190 /* MiscTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15867E3C7672FBC8F00780FBC81E8B /* MiscTools.swift */; };
+		700B7A7C5881D9982528BD0485AF607A /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A583D3C06CE9BFD877779935B6C64C /* Auxiliary.swift */; };
+		710489B09C8F69492A28F06F5A8A4C7B /* DatabasePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A177730FD7BA02F856045F0E3EE7E2 /* DatabasePromise.swift */; };
+		71203F446F1E021C72E6C281FA1C02D3 /* GRDB.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09C4882A066355EE8CD101BC821112 /* GRDB.swift-dummy.m */; };
+		7252A06A8AD572B5DADD3A0F98A88F0C /* grdb_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BF4F800AA31CA734EFB95FC260CE08 /* grdb_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75375F92889B2E2D2484D81F2E86A667 /* DatabaseDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36B29504FBFA7B89B20D1F8D30BAB1E /* DatabaseDateComponents.swift */; };
+		7595D2D3CE45E2C95B27C54F42C4AA74 /* ActivityTypesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D008A4F419713CA1BB7773233C9E4 /* ActivityTypesCache.swift */; };
+		75A3AF152177B09F5B8690B2738DA025 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C5F02E788FED8E93263BCEFDB5301 /* Complex.swift */; };
+		7780B8A59DC40412C940C54E785FE2DE /* Pods-AppleMapsFirstProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296BA3B7BE4966E8A8F32C1DD9C686B /* Pods-AppleMapsFirstProject-dummy.m */; };
+		780F49385E0F542053E8458F6E2D17D6 /* EncodableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D097D8470EDE555CBF9AC10FB7E85308 /* EncodableRecord.swift */; };
+		7872D8E094A6EDC444C6C08A09703CE0 /* RequestProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0ACDDC571E135624188CD44870E23D /* RequestProtocols.swift */; };
+		7887DA2F61770CD60EA3013A716F8B1B /* Database+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95649BD1C295C27A9C2085CC5329A69 /* Database+Schema.swift */; };
+		791A37F0149F731808CF17D8B4A75080 /* MLClassifierManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA415DC5A47977691AF8AD07EDC1DF /* MLClassifierManager.swift */; };
+		7BCF7F2917D264E588B990E5C2896F85 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAA6FA10062384194DE2F4CE1EB2A /* Path.swift */; };
+		7CB450D444A04E21E85CE71A73E7DA48 /* SQLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC00B718AA3A6E8BCC5B86D53EA6161 /* SQLRequest.swift */; };
+		7CBFF74D9A00AFD8685C51CB37F16145 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB27E95C097C976998F5C9C327A0D26 /* NSData.swift */; };
+		7E2311CC7D20A5FAF6B47BF8705CD805 /* DatabasePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D010B4ED2196EE75FDD0061E7F1B32BF /* DatabasePool.swift */; };
+		7F5164077DD8C1CDE7CD7BB15C3672A7 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678A63CD1ED5FC1158D3C9D9C9C0DB8 /* NotificationNames.swift */; };
+		7F6AA4073B2469E99E1D4C94569E564E /* TableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B07DA93DC1F1824AC7511E11FE0A11A /* TableRecord.swift */; };
+		804C2F64DF9F46EB28E1E3F02257C328 /* TableDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846324F589597F8FE9EC8C0FE002691E /* TableDefinition.swift */; };
+		82A76DA58F7DDB32EC3369E4107DCF94 /* DatabaseValueConvertible+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA20F3C2AA329D1DF1A086532B2F9E /* DatabaseValueConvertible+Encodable.swift */; };
+		8351FE51AE8E6C920602554F429B79D7 /* MutableActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C96386C3EBEE334CB5FF1E8AF7754B6 /* MutableActivityType.swift */; };
+		84358F28D653295A4CDDF8AFBCF23E48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E746F27BE695F87F41620AAD0CBFCF /* CoreLocation.framework */; };
+		85B5E81EBA6E389245D820F0B58C58D3 /* LockedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B5D4AB137152B6606537DA2788A78C /* LockedBox.swift */; };
+		88CAA3B2A43D14C04A5976AEAEE589E1 /* DatabaseValueConvertible+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1D626A48CC69601FA66BB8F665F0E /* DatabaseValueConvertible+RawRepresentable.swift */; };
+		8906B9C4B6BAD6C56288C1BCAC776EC3 /* FTS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A6180FFE287675794C1AA78900F29A /* FTS3.swift */; };
+		895625CA579C3D9A7573CD73A1CA1FEC /* DatabaseWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E0DCAD20D5EC24DEBA5B95AA60C41 /* DatabaseWriter.swift */; };
+		8A8F056524D0E00C11E6198E9650CEFD /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB17875334E3EB34BB85ED460C305A /* CompactMap.swift */; };
+		8C18C4BDA93C9FF51E9BA66C54613148 /* DatabaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F809972759CE73E3BE02734CD0498 /* DatabaseError.swift */; };
+		8E6D36E40F0B9AD94C0B2F62543346EB /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2A6CA43DF0BCE381A4F695A50AA6C /* Row.swift */; };
+		8EF316DEA2A0D58CA45EB4D453D0A84F /* SQLOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DFA64A8BE0F19716EBA965E4C97F47 /* SQLOrdering.swift */; };
+		9024642D8AAB993EBD7EAE9BBA7917EF /* SQLAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC37AE2711EEE8FDC1DCD661A06DF7 /* SQLAssociation.swift */; };
+		91552CBA5A8544B2BE53A82DA8EFB9AA /* DatabaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9369A77B3915AB2B8BB3D8A3445B964 /* DatabaseResult.swift */; };
+		91CF454E02F8C9B2765D49F701BEFDC5 /* TransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5928A7C489E320C539730E25325C9A3 /* TransactionObserver.swift */; };
+		926AD4E65D90EF185ED5D390F67821E9 /* ActivityTypeClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A36C1BDB2708000294BFEBE262D21B /* ActivityTypeClassifier.swift */; };
+		927E56C155652E53B1BF0173B30F826A /* MLModelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30D4D5BAD73D28B5FE8EC61F956FD2 /* MLModelSource.swift */; };
+		9534318D19FCB3C77A8E822C0897DCED /* SQLInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C81F4CB7E80D758AB17DC835B1AC2 /* SQLInterpolation.swift */; };
+		95700884EF96B019A354B02BFCA5D8BD /* PersistableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E7B620F190A5A1AD35C13FC62F828 /* PersistableRecord.swift */; };
+		96E6917A11C71692D8C4B47D1F24D33D /* ItemsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD67306539A8618A1033057D72EAB4BC /* ItemsObserver.swift */; };
+		96F95E355FBDEDF1611C78BE62443F43 /* Localizable.de.strings in Sources */ = {isa = PBXBuildFile; fileRef = E307AF82E736CF0ABBA5FEB1C60084A9 /* Localizable.de.strings */; };
+		9718F84EFF10C580A0AD23F950D0117E /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44247F9F2467CFFBAA8A9F73D4F4AEE4 /* Arithmetic.swift */; };
+		97873AB0932D4DDBDFCD4D8968F7093E /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402334D51B16AA91D20417C602C13483 /* Interval.swift */; };
+		97C75D5DBA22652A77D6915D313852D0 /* Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27627871569B476D77B00111D6F1770 /* Association.swift */; };
+		9934A15C357C6FC9E668B6DA9862A060 /* LocomotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9BD45662434A2C92583EBEF905DC0 /* LocomotionSample.swift */; };
+		99382BEE36AAD3A622C36E8D126CD1FE /* ReadWriteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CF8029CD06F8E81D2500B79B4905 /* ReadWriteBox.swift */; };
+		9A33A11C418366708FD77D2C68E63560 /* MatrixSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264F72DF8F15FE6EF58292BE0B28CE08 /* MatrixSlice.swift */; };
+		9B862B1E78B767CEFDE0383BE5FA44C4 /* DatabaseValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1D9FDEE6B95233EA3F1557CB8028A9 /* DatabaseValue.swift */; };
+		9BEE4BDDD0D77D0CFE6D1521F7628F90 /* LocoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D63EB5EC48B713FF601EE453579777 /* LocoKit-dummy.m */; };
+		9CCD8885CA5A343078FCACC9B468F8CB /* LocomotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2ECE98D0F2D458CCF191FA96081F9C /* LocomotionManager.swift */; };
+		A1A9A813D78173B5C452CCF760EFC08B /* ValueObservation+DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCA3F044826B4B57A1565EC7B27CC3 /* ValueObservation+DatabaseValueConvertible.swift */; };
+		A21813CFA51A7F71F35A02D65D9FF29D /* TensorSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19CE89C2E52648A727CDEBE45B431 /* TensorSlice.swift */; };
+		A3F48ED8FD7C8AE95A2673FF1E543435 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9B2BCA38A4686CAF2A0724DCDE3D /* URL.swift */; };
+		A57B926609BAAFB44533E6BD38372296 /* SQLSelectable+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3920A59A9DD1B4AA9C333925F0936 /* SQLSelectable+QueryInterface.swift */; };
+		A5B8712E62E7EBA7297D2E1D2198116F /* RowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4DF32780B4D8BA398C0DDE37C0B055 /* RowAdapter.swift */; };
+		A6C6F43E3ABA74E46D0B8A1D4B7D247A /* SQLFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDBCEC7101BE9B4FAB5E76730BE581 /* SQLFunctions.swift */; };
+		A76955937BA4810D9AEF190D5F551F3C /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B61FB0A9319A14AEF0D1F794B175D6 /* Cursor.swift */; };
+		A7D337BC33F968ADC9114144B137D2D5 /* FTS5+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537A825E133554D2542BFDCAA455C215 /* FTS5+QueryInterface.swift */; };
+		AFCC87D6905D8CCE8FCCDC777C085C5F /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB486709E3768761EF72AA660544583 /* ActivityType.swift */; };
+		B0284E42049182947FFB722861EBD4CC /* DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA464F9CABBED39BBBDE82AB251FEB4 /* DatabaseValueConvertible.swift */; };
+		B276C2DEA736D92B07F01C3642A89318 /* GRDB-4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A82AB76F73C3E79DAF603090459F37 /* GRDB-4.0.swift */; };
+		B3F65AE4334FD81217D5D3C3015411DE /* TimelineStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AB853CCA1BD2A2920638C9474DE5D /* TimelineStore.swift */; };
+		B45093A1D34D778A5AE8D284AA983F18 /* ActivityTypeClassifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8769DE3DC60CEEEC72D0E8E7D118268A /* ActivityTypeClassifiable.swift */; };
+		B472C1CBCC262660B77F4F87F2E86A64 /* ActivityTypeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6A5E78807300A4A84AEB441D047D5 /* ActivityTypeName.swift */; };
+		B5D37F562305C10B3AA4B7FF4A61FA7F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B8A04B216BA60D00521F4E7297501 /* Data.swift */; };
+		B65F2C9B53749B45B758CBBCA4D09CC1 /* FTS5TokenizerDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EBBBE457CC3BEA6C82EDBBB447EA39 /* FTS5TokenizerDescriptor.swift */; };
+		B867CBBA2B690C7CABEBA244AC7C93FC /* BelongsToAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3846B28E8E4ACEEC3CCA7E8F64623D69 /* BelongsToAssociation.swift */; };
+		BA684E52AB5E8F0ECAF96A62DDC7C2FB /* Database+Statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AE9C400EAE8C29D0E60A636951589 /* Database+Statements.swift */; };
+		BA774310528108FE49E04C20FDB383C0 /* SQLGenerationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95446FCE95672012ACDD95B14CCE8ED /* SQLGenerationContext.swift */; };
+		BCC1478D40834580AB8A7EDCBBF78F1E /* MLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F59A85800C888F911C4FF4178F046 /* MLModel.swift */; };
+		BD746983A3E7A683FA070D93C57C8E9D /* DatabaseMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6FEC28B4E7AB4F0B05F28DCEA029FC /* DatabaseMigrator.swift */; };
+		BDEA55293CF7853A7596A6DE20E09282 /* Localizable.cat.strings in Sources */ = {isa = PBXBuildFile; fileRef = C30999BB845BA31028C276889ED87B32 /* Localizable.cat.strings */; };
+		C52736941B58C66BB88AC02B91376413 /* DatabaseSchemaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E29BA57D7A16371D9030E045740D9 /* DatabaseSchemaCache.swift */; };
+		C5408AE26E63A1B3A1002DDEA8BEABA5 /* RowCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E181E040010FB8A1CD8FFB08E4FA04 /* RowCopy.swift */; };
+		C6CC1A5793004066EB630B26282C5062 /* MLCompositeClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEE1649F0705EA837C4AF9E6FABC8E /* MLCompositeClassifier.swift */; };
+		C8F7A66E4B7F231527DCCC5994EE8E72 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577EE098A1509549D3C0F8CFE0276E3 /* Matrix.swift */; };
+		C9BEAAA92A34FB153F52C8E455CB344E /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56B6D815879663B5394EA58B956052 /* Combine.swift */; };
+		CA120459AA4586AF9D0165E236345120 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B950EF8139038A4FB90DA4D1D965C /* FFT.swift */; };
+		CA6B38E98DED5C7A6BB4EC4BA4349ACD /* TableRecord+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC0AC476E1680EC37F07423E966B7A /* TableRecord+Association.swift */; };
+		CEA73A9E73DCB39606E78D8E4C81EFB2 /* TensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44F6D311BE59C9C22FD32DAE3FACF8 /* TensorType.swift */; };
+		CED2B7B68DCCDD8CA8712A9B2D351CC7 /* QueryInterfaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F4ACAEBAF5CA58EFDC851C8F0E7327 /* QueryInterfaceRequest.swift */; };
+		CFBA65E91C9FA82EA88657C1B0DC4DDE /* ActivityTypeTrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44D0498E2D891B2214533BAD45AD83 /* ActivityTypeTrainable.swift */; };
+		CFF4C787CA3C7C87E1FD8889B95892D3 /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21769F1F03A4EC0B0CDCEF8D78C0E863 /* FetchRequest.swift */; };
+		D0758834900D427861B0AB8240176466 /* StatementColumnConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C4CEF3A48AA42C9B2090434EDDD08 /* StatementColumnConvertible.swift */; };
+		D4DB1D66C57293B353CD4B2978F7149A /* DatabaseValueConvertible+ReferenceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76FACAD19E37556370D3699DEE112A /* DatabaseValueConvertible+ReferenceConvertible.swift */; };
+		D5657D461B5B6AB423A13CEA21DD0DDD /* PointerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFCA89EB30AF41B0E4309887065D0B /* PointerUtilities.swift */; };
+		D6C22528EE9BB4D0A84E8C0AEFC80121 /* QuadraticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E35F31A343E383FE70D804CF49D141A /* QuadraticType.swift */; };
+		D71AB7F22676211C375AF30457FD4BE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8CF4679A438BB043006AE1B7F617C /* Foundation.framework */; };
+		DB24CAC55A75233AFF1A1DE64A3D7B18 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6219109E2D43B8F80CEF0AD9816610 /* Value.swift */; };
+		DDFD09FECE4CDEDDE03C34228FDB5EA2 /* ComplexArrayRealSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0202CE04FD731B9F36CA08E1807BD /* ComplexArrayRealSlice.swift */; };
+		DF2657D405B8CFA20B1A47C50C0B880F /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F2562F79303F531FAC35BBDB649672 /* Migration.swift */; };
+		DF4B0A700721EF2EF7B93818F131466C /* Span.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F231BDEE14A6739167BDFC4434E822 /* Span.swift */; };
+		E0BB7295443B25F44E3B87AF7D3C0CE0 /* Localizable.ja.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7B17F4A32380DC415D1EAB590FCF69F4 /* Localizable.ja.strings */; };
+		E29C993152554A1DE0A30640E04F9845 /* ClassifierResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1575393D055B3CA404C40EBEF9EB211 /* ClassifierResults.swift */; };
+		E2D4B5BE06E5A599EDCB77CD36100265 /* StatementAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8C8632BAA5F30569B8F8CB1040677 /* StatementAuthorizer.swift */; };
+		E434545DB9B9648A7A9D50496C2840EC /* DatabaseCollation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BF728955977036445AE9DBD0E3095 /* DatabaseCollation.swift */; };
+		E58BCE89DCC88F73385D51CA9BBDF8E5 /* FTS5WrapperTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF40D5A1E5C6629DC11E9541EC1128D /* FTS5WrapperTokenizer.swift */; };
+		E68348367FBA1BD504A7DB95CFDC954C /* SQLExpression+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7892140BF67F24ADC5E3D1235053C /* SQLExpression+QueryInterface.swift */; };
+		E70A57C27DD3EA8431326FF384F135E2 /* SQLRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09114490B0301670AEDD65C64083C085 /* SQLRelation.swift */; };
+		E782A73EFB4EDB3E71241E1DDF8FB84A /* DatabaseSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5061CB14A0509BC4C5A43B8D9E333A /* DatabaseSnapshot.swift */; };
+		E82A0DD9F8CA5C3D39D757C62CF9D205 /* FetchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E69F24981F716CF287BB39F3A396F6 /* FetchableRecord.swift */; };
+		E87ED24844AAD7AB7F090DF37EF00796 /* MergeScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1882CC889F2C3F9AFD686AEDF9C4CA5 /* MergeScores.swift */; };
+		E9133AA41DD48895885FA32CC815219E /* DatabaseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E855B55643742016170C269D5B79B /* DatabaseReader.swift */; };
+		E9237FFF8EA99508BFA32F48CCC67D58 /* SQLInterpolation+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DFB5FBD6ADA46C693D1745DCF4A55 /* SQLInterpolation+QueryInterface.swift */; };
+		E97148C3C1AE62BB372515408248C529 /* SQLiteDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CD47BAA3B76E12C61A40B6128C79B2 /* SQLiteDateParser.swift */; };
+		EA62F70AB4013B5978EC742CD6E7B7B5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB861D0567D5BA8B6BEF34764B90DC /* CoreMotion.framework */; };
+		EB0DB37CB88721FD70D9CBEE08FAA3E0 /* TimelineObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E670D7477967065026BFA4F4A025E374 /* TimelineObject.swift */; };
+		EBEA518A97486E6ACCBC714BFF52A604 /* SchedulingWatchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3FF64D280B46966D1C78E316AA556 /* SchedulingWatchdog.swift */; };
+		EC64CBEE4098038DDC1ADB4C56A25A11 /* LocoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618AF3C15C62F3454EBD297ABDEE4FC /* LocoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD9686D07C8D6C323FAC31E9F9DEE4F /* StandardLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AD49789AF891FED88F55076B2293E /* StandardLibrary.swift */; };
+		ED4A5A0C5B930FD1804FDA9AF173DA62 /* PersistentSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEAF3A51AB22391FC64A99A9C2E1FF9 /* PersistentSample.swift */; };
+		EF361982F0029E4DB449F579DAA1BEC2 /* Localizable.th.strings in Sources */ = {isa = PBXBuildFile; fileRef = 426E723A9624137ECA1C21CE2B9EBAD8 /* Localizable.th.strings */; };
+		F06981688B16F385426ADEE74F4B8A04 /* SerializedDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538202C0632716DC59DBBDF057852FD /* SerializedDatabase.swift */; };
+		F1D8213F44D8B4D6F7F50BC0E1B48705 /* SQLLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CB13FFAEEC8F038BD3818CC0EF450 /* SQLLiteral.swift */; };
+		F34133113AF57000C97C150EA8B0D6E8 /* HasManyThroughAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817057CEB9D07F5CEF7E0AEFB2D82FB3 /* HasManyThroughAssociation.swift */; };
+		F553C1EF375868F9B365FE4E3C1C0FED /* GRDB.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7D5087101F7AE8CABAEDC8D209D901 /* GRDB.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5AE9A64B2175E547162AF0F3DF54DE0 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EAF57C8DA32748DE067CBF8B47EB24 /* Hyperbolic.swift */; };
+		F5C1975D6CB9AE72637A4FCB54B09600 /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307E30BDE67935C8A919A5DE8338743 /* Pool.swift */; };
+		F6C42789D2D4F639323FAA8141D25236 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9CBF3FF28F4C46451706E5C57FB87 /* Jobs.swift */; };
+		F7CF70AA19A8071055C883365E39DBD0 /* ValueObservation+MapReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF4804F8A1E11E1AF952F98EE1BFA7 /* ValueObservation+MapReducer.swift */; };
+		F8F665CC9DAFB66A4464567A5AFFE70E /* CLPlacemarkCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E011B008506AA9E15D89B562853D4CA /* CLPlacemarkCache.swift */; };
+		FA19604ACD5522F8FFB9622F1A7DDE72 /* MLClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536D6BF27ED0B4FDB619DF9BE384AC5 /* MLClassifier.swift */; };
+		FB7C03A2EB51737E1D7EC4711D181989 /* SQLExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814BD6F38D085B66E4EDA5A69254751D /* SQLExpression.swift */; };
+		FC90AA37C4527F1C0632BFCB9BB09D6B /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F27C7E1F61AD247B1C6C10A3C87BD2 /* RemoveDuplicates.swift */; };
+		FE4AD7D8E357F91D3B906D084D7649A5 /* ValueObservation+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC3EDB81BD25884E1D08396469267E /* ValueObservation+Count.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		069F793ABF764EFA986746E1CA2C624B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A86C228CFCBC35A1FD284274ED0930F;
+			remoteInfo = GRDB.swift;
+		};
+		09F17126AA727D6C086C6FCC189AFF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFE7CD58C2C80280F96E42DFEDC5803;
+			remoteInfo = Upsurge;
+		};
+		4038ED8830DAB2864A6BC38FA8276664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EAACCA1B1FF2EFE22FBA9E14D36055C;
+			remoteInfo = LocoKit;
+		};
+		5594AADA5F6196212989D3E0027BA71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7248CFD42349B334F2AA6A390906D204;
+			remoteInfo = LocoKitCore;
+		};
+		678BEC689A9C39F65F1C481AE5BBC017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7248CFD42349B334F2AA6A390906D204;
+			remoteInfo = LocoKitCore;
+		};
+		9E21BEB475445B25144BBB0C70A423AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A86C228CFCBC35A1FD284274ED0930F;
+			remoteInfo = GRDB.swift;
+		};
+		C58738BB9AB198B008E9B9A455CC0719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFE7CD58C2C80280F96E42DFEDC5803;
+			remoteInfo = Upsurge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006DB9DA612F5F59DE4600B1885007FC /* DatabaseValueConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseValueConversion.swift; path = GRDB/Core/DatabaseValueConversion.swift; sourceTree = "<group>"; };
+		020AAB6CB059C44411274602350E9ECF /* Database.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Database.swift; path = GRDB/Core/Database.swift; sourceTree = "<group>"; };
+		0307E30BDE67935C8A919A5DE8338743 /* Pool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pool.swift; path = GRDB/Utils/Pool.swift; sourceTree = "<group>"; };
+		04CC37AE2711EEE8FDC1DCD661A06DF7 /* SQLAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLAssociation.swift; path = GRDB/QueryInterface/SQL/SQLAssociation.swift; sourceTree = "<group>"; };
+		04D97B759BCD8D5DFB7CB3C68D70EED4 /* TimelineStore+Migrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimelineStore+Migrations.swift"; path = "LocoKit/Timelines/TimelineStore+Migrations.swift"; sourceTree = "<group>"; };
+		0540D82CA5D71650A09C3694D213E1A9 /* SQLCollatedExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLCollatedExpression.swift; path = GRDB/QueryInterface/SQL/SQLCollatedExpression.swift; sourceTree = "<group>"; };
+		06B8CF4679A438BB043006AE1B7F617C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		06B9BD45662434A2C92583EBEF905DC0 /* LocomotionSample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocomotionSample.swift; path = LocoKit/Base/LocomotionSample.swift; sourceTree = "<group>"; };
+		06ECD77899385DF4683869D0B8C4005B /* 2DTensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = 2DTensorSlice.swift; path = Sources/Upsurge/2DTensorSlice.swift; sourceTree = "<group>"; };
+		0747E004A8FC515FD4DC1A1CB6714FA3 /* SQLCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLCollection.swift; path = GRDB/QueryInterface/SQL/SQLCollection.swift; sourceTree = "<group>"; };
+		075DFB5FBD6ADA46C693D1745DCF4A55 /* SQLInterpolation+QueryInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SQLInterpolation+QueryInterface.swift"; path = "GRDB/QueryInterface/SQLInterpolation+QueryInterface.swift"; sourceTree = "<group>"; };
+		09114490B0301670AEDD65C64083C085 /* SQLRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLRelation.swift; path = GRDB/QueryInterface/SQL/SQLRelation.swift; sourceTree = "<group>"; };
+		0A7E29BA57D7A16371D9030E045740D9 /* DatabaseSchemaCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseSchemaCache.swift; path = GRDB/Core/DatabaseSchemaCache.swift; sourceTree = "<group>"; };
+		0AA734E47FC0FB509B0B6DBF811A3BE6 /* Upsurge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Upsurge-Info.plist"; sourceTree = "<group>"; };
+		0C0ACDDC571E135624188CD44870E23D /* RequestProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestProtocols.swift; path = GRDB/QueryInterface/Request/RequestProtocols.swift; sourceTree = "<group>"; };
+		0C96386C3EBEE334CB5FF1E8AF7754B6 /* MutableActivityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableActivityType.swift; path = LocoKit/Timelines/ActivityTypes/MutableActivityType.swift; sourceTree = "<group>"; };
+		0CA672053D69BDF98AD879B91210896E /* Real.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Real.swift; path = Sources/Upsurge/Real.swift; sourceTree = "<group>"; };
+		0D8CB13FFAEEC8F038BD3818CC0EF450 /* SQLLiteral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLLiteral.swift; path = GRDB/Core/SQLLiteral.swift; sourceTree = "<group>"; };
+		0FA04636700E83A2F40E7DCF89C49C18 /* QueryInterfaceRequest+Association.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "QueryInterfaceRequest+Association.swift"; path = "GRDB/QueryInterface/Request/QueryInterfaceRequest+Association.swift"; sourceTree = "<group>"; };
+		0FE685497FDB5E7D4D3EA48EAE6B03BF /* CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloat.swift; path = GRDB/Core/Support/CoreGraphics/CGFloat.swift; sourceTree = "<group>"; };
+		12BEE1649F0705EA837C4AF9E6FABC8E /* MLCompositeClassifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLCompositeClassifier.swift; path = LocoKit/Timelines/ActivityTypes/MLCompositeClassifier.swift; sourceTree = "<group>"; };
+		13D3708EFC646DA9D3D0915620EA87BB /* DatabaseQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseQueue.swift; path = GRDB/Core/DatabaseQueue.swift; sourceTree = "<group>"; };
+		1401D8E1247BDDAD6B253A98DDE0DBA1 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = GRDB/FTS/FTS4.swift; sourceTree = "<group>"; };
+		14C8CF8029CD06F8E81D2500B79B4905 /* ReadWriteBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReadWriteBox.swift; path = GRDB/Utils/ReadWriteBox.swift; sourceTree = "<group>"; };
+		1536D6BF27ED0B4FDB619DF9BE384AC5 /* MLClassifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLClassifier.swift; path = LocoKit/Timelines/ActivityTypes/MLClassifier.swift; sourceTree = "<group>"; };
+		16B310EE116180B5BC82AE6900573B6D /* ClassifierResultItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassifierResultItem.swift; path = LocoKit/Timelines/ActivityTypes/ClassifierResultItem.swift; sourceTree = "<group>"; };
+		171BB003819CE00F8D296A06B4EF0B4E /* SQLExpressible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLExpressible.swift; path = GRDB/QueryInterface/SQL/SQLExpressible.swift; sourceTree = "<group>"; };
+		17ABD68E920293F080122810A8881638 /* GRDB.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GRDB.swift; path = GRDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCD46C0C447B3BEAC5E8AA334734CB3 /* Pods-AppleMapsFirstProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleMapsFirstProject"; path = Pods_AppleMapsFirstProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E35F31A343E383FE70D804CF49D141A /* QuadraticType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadraticType.swift; path = Sources/Upsurge/QuadraticType.swift; sourceTree = "<group>"; };
+		1E7A0825BF77D61C27EE8A9EB3FF658F /* DatabaseValueConvertible+Decodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DatabaseValueConvertible+Decodable.swift"; path = "GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift"; sourceTree = "<group>"; };
+		1EB6A5E78807300A4A84AEB441D047D5 /* ActivityTypeName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityTypeName.swift; path = LocoKit/Base/ActivityTypeName.swift; sourceTree = "<group>"; };
+		20CFF0EE6EFF9D586997F4D835DAB87E /* LocoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoKit.release.xcconfig; sourceTree = "<group>"; };
+		21769F1F03A4EC0B0CDCEF8D78C0E863 /* FetchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchRequest.swift; path = GRDB/Core/FetchRequest.swift; sourceTree = "<group>"; };
+		23173EEE83E19549268186FFDE5C142C /* DatabaseRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseRegion.swift; path = GRDB/Core/DatabaseRegion.swift; sourceTree = "<group>"; };
+		244B8A04B216BA60D00521F4E7297501 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = GRDB/Core/Support/Foundation/Data.swift; sourceTree = "<group>"; };
+		264F72DF8F15FE6EF58292BE0B28CE08 /* MatrixSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixSlice.swift; path = Sources/Upsurge/MatrixSlice.swift; sourceTree = "<group>"; };
+		273F9B2BCA38A4686CAF2A0724DCDE3D /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URL.swift; path = GRDB/Core/Support/Foundation/URL.swift; sourceTree = "<group>"; };
+		27E6F2E987D4891EAF531F154485564B /* UUID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UUID.swift; path = GRDB/Core/Support/Foundation/UUID.swift; sourceTree = "<group>"; };
+		27F8E603D4B2DF3162907FD015B2A212 /* KeyPathRefining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyPathRefining.swift; path = GRDB/Utils/KeyPathRefining.swift; sourceTree = "<group>"; };
+		2A5061CB14A0509BC4C5A43B8D9E333A /* DatabaseSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseSnapshot.swift; path = GRDB/Core/DatabaseSnapshot.swift; sourceTree = "<group>"; };
+		2B763633FCBB147ACFDE8034D382D6DB /* Pods-AppleMapsFirstProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleMapsFirstProject-umbrella.h"; sourceTree = "<group>"; };
+		2BA44E9BAC05D1865895FE6770762FCA /* Upsurge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-umbrella.h"; sourceTree = "<group>"; };
+		2BCCA3F044826B4B57A1565EC7B27CC3 /* ValueObservation+DatabaseValueConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueObservation+DatabaseValueConvertible.swift"; path = "GRDB/ValueObservation/ValueObservation+DatabaseValueConvertible.swift"; sourceTree = "<group>"; };
+		2D8E6830103D7FFFEABFE58C259A60BC /* Record.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Record.swift; path = GRDB/Record/Record.swift; sourceTree = "<group>"; };
+		2E3170C4BBDFDE1A46152F5B92BC0274 /* TrustAssessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrustAssessor.swift; path = LocoKit/Base/TrustAssessor.swift; sourceTree = "<group>"; };
+		302E0DCAD20D5EC24DEBA5B95AA60C41 /* DatabaseWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseWriter.swift; path = GRDB/Core/DatabaseWriter.swift; sourceTree = "<group>"; };
+		30DA7988460D999092209539B7A52372 /* ValueArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArraySlice.swift; path = Sources/Upsurge/ValueArraySlice.swift; sourceTree = "<group>"; };
+		31EA3E2695CCA49890BD29A4A5AB0523 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = GRDB/ValueObservation/ValueReducer/Map.swift; sourceTree = "<group>"; };
+		33CB861D0567D5BA8B6BEF34764B90DC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		359E855B55643742016170C269D5B79B /* DatabaseReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseReader.swift; path = GRDB/Core/DatabaseReader.swift; sourceTree = "<group>"; };
+		35B9CBF3FF28F4C46451706E5C57FB87 /* Jobs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Jobs.swift; path = LocoKit/Base/Jobs.swift; sourceTree = "<group>"; };
+		3846B28E8E4ACEEC3CCA7E8F64623D69 /* BelongsToAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BelongsToAssociation.swift; path = GRDB/QueryInterface/Request/Association/BelongsToAssociation.swift; sourceTree = "<group>"; };
+		387AC5286DBBB6A821A8EE3128D12184 /* Column.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Column.swift; path = GRDB/QueryInterface/SQL/Column.swift; sourceTree = "<group>"; };
+		3CC23B4D5C19B4CA625C54ED4ABECE16 /* Upsurge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Upsurge-prefix.pch"; sourceTree = "<group>"; };
+		3E7D5087101F7AE8CABAEDC8D209D901 /* GRDB.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRDB.swift-umbrella.h"; sourceTree = "<group>"; };
+		402334D51B16AA91D20417C602C13483 /* Interval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = Sources/Upsurge/Interval.swift; sourceTree = "<group>"; };
+		4024FBE0C462F0BA4428F58B4D81E86D /* ItemSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemSegment.swift; path = LocoKit/Timelines/TimelineObjects/ItemSegment.swift; sourceTree = "<group>"; };
+		407F59A85800C888F911C4FF4178F046 /* MLModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLModel.swift; path = LocoKit/Timelines/ActivityTypes/MLModel.swift; sourceTree = "<group>"; };
+		4152B0914231F14F610E62C290E43CAC /* FetchedRecordsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchedRecordsController.swift; path = GRDB/Record/FetchedRecordsController.swift; sourceTree = "<group>"; };
+		426E723A9624137ECA1C21CE2B9EBAD8 /* Localizable.th.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.th.strings; path = LocoKit/Base/Strings/Localizable.th.strings; sourceTree = "<group>"; };
+		43C7892140BF67F24ADC5E3D1235053C /* SQLExpression+QueryInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SQLExpression+QueryInterface.swift"; path = "GRDB/QueryInterface/SQL/SQLExpression+QueryInterface.swift"; sourceTree = "<group>"; };
+		43FED9C9A71ED686F31C7E7BC28D3AF2 /* Upsurge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.release.xcconfig; sourceTree = "<group>"; };
+		44247F9F2467CFFBAA8A9F73D4F4AEE4 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Sources/Upsurge/Arithmetic.swift; sourceTree = "<group>"; };
+		45D393EBF12132C11AE912DCE384E9A4 /* Pods-AppleMapsFirstProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppleMapsFirstProject.modulemap"; sourceTree = "<group>"; };
+		45F0C3B137ED78CEE0028D1EEC3054FB /* FTS3TokenizerDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS3TokenizerDescriptor.swift; path = GRDB/FTS/FTS3TokenizerDescriptor.swift; sourceTree = "<group>"; };
+		46B2A6CA43DF0BCE381A4F695A50AA6C /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = GRDB/Core/Row.swift; sourceTree = "<group>"; };
+		47E69F24981F716CF287BB39F3A396F6 /* FetchableRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchableRecord.swift; path = GRDB/Record/FetchableRecord.swift; sourceTree = "<group>"; };
+		484C81F4CB7E80D758AB17DC835B1AC2 /* SQLInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLInterpolation.swift; path = GRDB/Core/SQLInterpolation.swift; sourceTree = "<group>"; };
+		4C3E7B620F190A5A1AD35C13FC62F828 /* PersistableRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistableRecord.swift; path = GRDB/Record/PersistableRecord.swift; sourceTree = "<group>"; };
+		4ED8C8632BAA5F30569B8F8CB1040677 /* StatementAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementAuthorizer.swift; path = GRDB/Core/StatementAuthorizer.swift; sourceTree = "<group>"; };
+		5048CAA09705CF72B0460E22BB6183DE /* Pods-AppleMapsFirstProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleMapsFirstProject-Info.plist"; sourceTree = "<group>"; };
+		51AF2CDD45B09794FA7875B6FAC41D6F /* ValueObservation+FetchableRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueObservation+FetchableRecord.swift"; path = "GRDB/ValueObservation/ValueObservation+FetchableRecord.swift"; sourceTree = "<group>"; };
+		51E3FF64D280B46966D1C78E316AA556 /* SchedulingWatchdog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulingWatchdog.swift; path = GRDB/Core/SchedulingWatchdog.swift; sourceTree = "<group>"; };
+		5296BA3B7BE4966E8A8F32C1DD9C686B /* Pods-AppleMapsFirstProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleMapsFirstProject-dummy.m"; sourceTree = "<group>"; };
+		537A825E133554D2542BFDCAA455C215 /* FTS5+QueryInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FTS5+QueryInterface.swift"; path = "GRDB/QueryInterface/FTS5+QueryInterface.swift"; sourceTree = "<group>"; };
+		53BE78EF405E98F305B6EEA86EABF48C /* CoordinatesMatrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinatesMatrix.swift; path = LocoKit/Timelines/ActivityTypes/CoordinatesMatrix.swift; sourceTree = "<group>"; };
+		55888A9D0D214728C0E11DDB76B127EA /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = GRDB/Utils/Utils.swift; sourceTree = "<group>"; };
+		5678A63CD1ED5FC1158D3C9D9C9C0DB8 /* NotificationNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationNames.swift; path = LocoKit/Base/NotificationNames.swift; sourceTree = "<group>"; };
+		56EE0D0D3BA7AA9846039A595D00AF7D /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = LocoKit/Timelines/TimelineObjects/Visit.swift; sourceTree = "<group>"; };
+		57A177730FD7BA02F856045F0E3EE7E2 /* DatabasePromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabasePromise.swift; path = GRDB/QueryInterface/SQL/DatabasePromise.swift; sourceTree = "<group>"; };
+		586080C33A7E7DFE6BAEB7783847E81D /* LocoKitCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoKitCore.release.xcconfig; sourceTree = "<group>"; };
+		58A583D3C06CE9BFD877779935B6C64C /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Sources/Upsurge/Auxiliary.swift; sourceTree = "<group>"; };
+		58CF8B98B7D30D61C9A532185BCB7B18 /* CoordinateTrustManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinateTrustManager.swift; path = LocoKit/Timelines/CoordinateTrustManager.swift; sourceTree = "<group>"; };
+		58E746F27BE695F87F41620AAD0CBFCF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		5BBE2213D830F201581EFCED77F9C1A0 /* NSNull.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSNull.swift; path = GRDB/Core/Support/Foundation/NSNull.swift; sourceTree = "<group>"; };
+		5DE02811E297F65080D6AAA470C72C23 /* LocoKitCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoKitCore.debug.xcconfig; sourceTree = "<group>"; };
+		5E514D8622C41D2E58DFE99DB006F633 /* FTS5Tokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5Tokenizer.swift; path = GRDB/FTS/FTS5Tokenizer.swift; sourceTree = "<group>"; };
+		5E6FEC28B4E7AB4F0B05F28DCEA029FC /* DatabaseMigrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseMigrator.swift; path = GRDB/Migration/DatabaseMigrator.swift; sourceTree = "<group>"; };
+		5F2A932050D29D5D6B590DF99FF1D82F /* FTS5CustomTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5CustomTokenizer.swift; path = GRDB/FTS/FTS5CustomTokenizer.swift; sourceTree = "<group>"; };
+		5F72E72E57233B23ED640B9732231D3E /* Inflections+English.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Inflections+English.swift"; path = "GRDB/Utils/Inflections+English.swift"; sourceTree = "<group>"; };
+		60E181E040010FB8A1CD8FFB08E4FA04 /* RowCopy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowCopy.swift; path = LocoKit/Timelines/TimelineObjects/RowCopy.swift; sourceTree = "<group>"; };
+		619AE9C400EAE8C29D0E60A636951589 /* Database+Statements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Database+Statements.swift"; path = "GRDB/Core/Database+Statements.swift"; sourceTree = "<group>"; };
+		65E0794FAD9E4808A9C813FD18DDFC80 /* TimelineProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineProcessor.swift; path = LocoKit/Timelines/TimelineProcessor.swift; sourceTree = "<group>"; };
+		687C322F23C0E15037A9982AE904E98F /* VirtualTableModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTableModule.swift; path = GRDB/QueryInterface/Schema/VirtualTableModule.swift; sourceTree = "<group>"; };
+		68B5D4AB137152B6606537DA2788A78C /* LockedBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockedBox.swift; path = GRDB/Utils/LockedBox.swift; sourceTree = "<group>"; };
+		68CD47BAA3B76E12C61A40B6128C79B2 /* SQLiteDateParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteDateParser.swift; path = GRDB/Core/Support/Foundation/SQLiteDateParser.swift; sourceTree = "<group>"; };
+		69D63EB5EC48B713FF601EE453579777 /* LocoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocoKit-dummy.m"; sourceTree = "<group>"; };
+		6AFCAA6FA10062384194DE2F4CE1EB2A /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = LocoKit/Timelines/TimelineObjects/Path.swift; sourceTree = "<group>"; };
+		6BAB17875334E3EB34BB85ED460C305A /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = GRDB/ValueObservation/ValueReducer/CompactMap.swift; sourceTree = "<group>"; };
+		6C1D9FDEE6B95233EA3F1557CB8028A9 /* DatabaseValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseValue.swift; path = GRDB/Core/DatabaseValue.swift; sourceTree = "<group>"; };
+		6C78A5536D4CAFE542F7EC986052C897 /* MatrixArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixArithmetic.swift; path = Sources/Upsurge/MatrixArithmetic.swift; sourceTree = "<group>"; };
+		6EF054FAC27825DDA41ABC13C72958B1 /* SQLQueryGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLQueryGenerator.swift; path = GRDB/QueryInterface/SQLGeneration/SQLQueryGenerator.swift; sourceTree = "<group>"; };
+		70C1D626A48CC69601FA66BB8F665F0E /* DatabaseValueConvertible+RawRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DatabaseValueConvertible+RawRepresentable.swift"; path = "GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift"; sourceTree = "<group>"; };
+		71DD4030AE15B0F0B32989DBCA95E2FF /* ValueArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueArray.swift; path = Sources/Upsurge/ValueArray.swift; sourceTree = "<group>"; };
+		73F231BDEE14A6739167BDFC4434E822 /* Span.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Span.swift; path = Sources/Upsurge/Span.swift; sourceTree = "<group>"; };
+		74C19CE89C2E52648A727CDEBE45B431 /* TensorSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorSlice.swift; path = Sources/Upsurge/TensorSlice.swift; sourceTree = "<group>"; };
+		7527DFFBF93476D9E0D8DC1D996441B7 /* DSP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSP.swift; path = Sources/Upsurge/DSP.swift; sourceTree = "<group>"; };
+		7671D0B171131D83463C8742BB6E60CC /* LocoKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocoKit; path = LocoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77546866AF68EFC7E02025DAA867A06C /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Sources/Upsurge/Trigonometric.swift; sourceTree = "<group>"; };
+		783BF728955977036445AE9DBD0E3095 /* DatabaseCollation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseCollation.swift; path = GRDB/Core/DatabaseCollation.swift; sourceTree = "<group>"; };
+		78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Upsurge; path = Upsurge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7993B36A631337CD7ADA4372CFA9FD1B /* ValueReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueReducer.swift; path = GRDB/ValueObservation/ValueReducer/ValueReducer.swift; sourceTree = "<group>"; };
+		7A7E95AF68DB6AFCDD7420EDB05E6CEF /* GRDB.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GRDB.swift-Info.plist"; sourceTree = "<group>"; };
+		7B17F4A32380DC415D1EAB590FCF69F4 /* Localizable.ja.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.ja.strings; path = LocoKit/Base/Strings/Localizable.ja.strings; sourceTree = "<group>"; };
+		7B8C4BDDEF34712D9FAD396AA402123F /* Pods-AppleMapsFirstProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleMapsFirstProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CF40D5A1E5C6629DC11E9541EC1128D /* FTS5WrapperTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5WrapperTokenizer.swift; path = GRDB/FTS/FTS5WrapperTokenizer.swift; sourceTree = "<group>"; };
+		7DEAF3A51AB22391FC64A99A9C2E1FF9 /* PersistentSample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistentSample.swift; path = LocoKit/Timelines/TimelineObjects/PersistentSample.swift; sourceTree = "<group>"; };
+		7E011B008506AA9E15D89B562853D4CA /* CLPlacemarkCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLPlacemarkCache.swift; path = LocoKit/Timelines/CLPlacemarkCache.swift; sourceTree = "<group>"; };
+		7F7660B06EFE1E16CDD636F9277D5191 /* Localizable.fr.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.fr.strings; path = LocoKit/Base/Strings/Localizable.fr.strings; sourceTree = "<group>"; };
+		80B61FB0A9319A14AEF0D1F794B175D6 /* Cursor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cursor.swift; path = GRDB/Core/Cursor.swift; sourceTree = "<group>"; };
+		810AD49789AF891FED88F55076B2293E /* StandardLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardLibrary.swift; path = GRDB/Core/Support/StandardLibrary/StandardLibrary.swift; sourceTree = "<group>"; };
+		814BD6F38D085B66E4EDA5A69254751D /* SQLExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLExpression.swift; path = GRDB/QueryInterface/SQL/SQLExpression.swift; sourceTree = "<group>"; };
+		817057CEB9D07F5CEF7E0AEFB2D82FB3 /* HasManyThroughAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HasManyThroughAssociation.swift; path = GRDB/QueryInterface/Request/Association/HasManyThroughAssociation.swift; sourceTree = "<group>"; };
+		81BF4F800AA31CA734EFB95FC260CE08 /* grdb_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = grdb_config.h; path = Support/grdb_config.h; sourceTree = "<group>"; };
+		846324F589597F8FE9EC8C0FE002691E /* TableDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableDefinition.swift; path = GRDB/QueryInterface/Schema/TableDefinition.swift; sourceTree = "<group>"; };
+		84A36F1CA645664D31F3A28B2FC4EF41 /* HasManyAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HasManyAssociation.swift; path = GRDB/QueryInterface/Request/Association/HasManyAssociation.swift; sourceTree = "<group>"; };
+		85E5CB8228442D49F6D2FA9172919420 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = LocoKit/Timelines/Merge.swift; sourceTree = "<group>"; };
+		868E8F8AB44A4EADEC7378204820CB75 /* LocoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocoKit-prefix.pch"; sourceTree = "<group>"; };
+		8769DE3DC60CEEEC72D0E8E7D118268A /* ActivityTypeClassifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityTypeClassifiable.swift; path = LocoKit/Timelines/ActivityTypes/ActivityTypeClassifiable.swift; sourceTree = "<group>"; };
+		879C943EA4431713FBED32D87D59F798 /* HasOneThroughAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HasOneThroughAssociation.swift; path = GRDB/QueryInterface/Request/Association/HasOneThroughAssociation.swift; sourceTree = "<group>"; };
+		8807A1683BEFB92A8EAEE8CAA66BDF65 /* LocoKitCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LocoKitCore.framework; sourceTree = "<group>"; };
+		88599454D21BEADA9E0DCCF41BA7F4CA /* EncodableRecord+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EncodableRecord+Encodable.swift"; path = "GRDB/Record/EncodableRecord+Encodable.swift"; sourceTree = "<group>"; };
+		88EBBBE457CC3BEA6C82EDBBB447EA39 /* FTS5TokenizerDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5TokenizerDescriptor.swift; path = GRDB/FTS/FTS5TokenizerDescriptor.swift; sourceTree = "<group>"; };
+		89A36C1BDB2708000294BFEBE262D21B /* ActivityTypeClassifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityTypeClassifier.swift; path = LocoKit/Timelines/ActivityTypes/ActivityTypeClassifier.swift; sourceTree = "<group>"; };
+		8A116E885E0107251F8E36E5F98B4BA9 /* ValueObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueObserver.swift; path = GRDB/ValueObservation/ValueObserver.swift; sourceTree = "<group>"; };
+		8A4AF2171DDEB61F6B5AFBF4931E7292 /* CLLocationTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocationTools.swift; path = LocoKit/Base/Helpers/CLLocationTools.swift; sourceTree = "<group>"; };
+		8A6219109E2D43B8F80CEF0AD9816610 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/Upsurge/Value.swift; sourceTree = "<group>"; };
+		8AE0202CE04FD731B9F36CA08E1807BD /* ComplexArrayRealSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArrayRealSlice.swift; path = Sources/Upsurge/ComplexArrayRealSlice.swift; sourceTree = "<group>"; };
+		8B07DA93DC1F1824AC7511E11FE0A11A /* TableRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRecord.swift; path = GRDB/Record/TableRecord.swift; sourceTree = "<group>"; };
+		8BC1EC176680C2D70E1741838BA88939 /* LocoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoKit.debug.xcconfig; sourceTree = "<group>"; };
+		8E8CC22CA29144BDE648CD22BE78A370 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = GRDB/Core/Configuration.swift; sourceTree = "<group>"; };
+		8FB27E95C097C976998F5C9C327A0D26 /* NSData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSData.swift; path = GRDB/Core/Support/Foundation/NSData.swift; sourceTree = "<group>"; };
+		90F3920A59A9DD1B4AA9C333925F0936 /* SQLSelectable+QueryInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SQLSelectable+QueryInterface.swift"; path = "GRDB/QueryInterface/SQL/SQLSelectable+QueryInterface.swift"; sourceTree = "<group>"; };
+		9123AB0EE86BCAC2DA73ACEC3A32375F /* TimelineItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineItem.swift; path = LocoKit/Timelines/TimelineObjects/TimelineItem.swift; sourceTree = "<group>"; };
+		91DD8CC1667AE2EF70BEE6552B174082 /* Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Histogram.swift; path = LocoKit/Timelines/ActivityTypes/Histogram.swift; sourceTree = "<group>"; };
+		9618AF3C15C62F3454EBD297ABDEE4FC /* LocoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocoKit-umbrella.h"; sourceTree = "<group>"; };
+		965E8A0B305BCFC9AE970EC2A5A38518 /* Pods-AppleMapsFirstProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleMapsFirstProject-frameworks.sh"; sourceTree = "<group>"; };
+		96E3F1D4DC7C3E09B5F710212899394F /* DatabaseRegionObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseRegionObservation.swift; path = GRDB/Core/DatabaseRegionObservation.swift; sourceTree = "<group>"; };
+		98DFCA89EB30AF41B0E4309887065D0B /* PointerUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerUtilities.swift; path = Sources/Upsurge/PointerUtilities.swift; sourceTree = "<group>"; };
+		9BB80EA0B41F19A369B054376AB74A74 /* Localizable.en.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.en.strings; path = LocoKit/Base/Strings/Localizable.en.strings; sourceTree = "<group>"; };
+		9C8C0625B5DD6550BA2FABB7D84DEA4F /* StringTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringTools.swift; path = LocoKit/Base/Helpers/StringTools.swift; sourceTree = "<group>"; };
+		9CB486709E3768761EF72AA660544583 /* ActivityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityType.swift; path = LocoKit/Timelines/ActivityTypes/ActivityType.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F413F7BFECD9F59562C32DF8AC951FD /* CoordinateTrust.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinateTrust.swift; path = LocoKit/Timelines/CoordinateTrust.swift; sourceTree = "<group>"; };
+		A00FF2E69A048D1D67A18602A17F99DA /* Upsurge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Upsurge.debug.xcconfig; sourceTree = "<group>"; };
+		A0DFA64A8BE0F19716EBA965E4C97F47 /* SQLOrdering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLOrdering.swift; path = GRDB/QueryInterface/SQL/SQLOrdering.swift; sourceTree = "<group>"; };
+		A141B02C35ECF2E0A975A31A6EC1A6D4 /* SQLOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLOperators.swift; path = GRDB/QueryInterface/SQL/SQLOperators.swift; sourceTree = "<group>"; };
+		A1575393D055B3CA404C40EBEF9EB211 /* ClassifierResults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassifierResults.swift; path = LocoKit/Timelines/ActivityTypes/ClassifierResults.swift; sourceTree = "<group>"; };
+		A1A82AB76F73C3E79DAF603090459F37 /* GRDB-4.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GRDB-4.0.swift"; path = "GRDB/Fixit/GRDB-4.0.swift"; sourceTree = "<group>"; };
+		A2CF4804F8A1E11E1AF952F98EE1BFA7 /* ValueObservation+MapReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueObservation+MapReducer.swift"; path = "GRDB/ValueObservation/ValueObservation+MapReducer.swift"; sourceTree = "<group>"; };
+		A2F4ACAEBAF5CA58EFDC851C8F0E7327 /* QueryInterfaceRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryInterfaceRequest.swift; path = GRDB/QueryInterface/Request/QueryInterfaceRequest.swift; sourceTree = "<group>"; };
+		A3FC3EDB81BD25884E1D08396469267E /* ValueObservation+Count.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueObservation+Count.swift"; path = "GRDB/ValueObservation/ValueObservation+Count.swift"; sourceTree = "<group>"; };
+		A8A867B06BABD90DA7713FF9C31FD823 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = GRDB/Core/Statement.swift; sourceTree = "<group>"; };
+		A9CA20F3C2AA329D1DF1A086532B2F9E /* DatabaseValueConvertible+Encodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DatabaseValueConvertible+Encodable.swift"; path = "GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift"; sourceTree = "<group>"; };
+		AAC78B4F41955F25E426FEBED3BADC0C /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = GRDB/FTS/FTS5.swift; sourceTree = "<group>"; };
+		AB93CABF5989F38D273ACB8534036D38 /* NSNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSNumber.swift; path = GRDB/Core/Support/Foundation/NSNumber.swift; sourceTree = "<group>"; };
+		ADB0A19F8D66C6CBCDCE06547769A81B /* FetchableRecord+TableRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FetchableRecord+TableRecord.swift"; path = "GRDB/Record/FetchableRecord+TableRecord.swift"; sourceTree = "<group>"; };
+		AEBDBCEC7101BE9B4FAB5E76730BE581 /* SQLFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLFunctions.swift; path = GRDB/QueryInterface/SQL/SQLFunctions.swift; sourceTree = "<group>"; };
+		B25F556251D5FA6C3176DD5E48CC6C78 /* ComplexArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArithmetic.swift; path = Sources/Upsurge/ComplexArithmetic.swift; sourceTree = "<group>"; };
+		B27627871569B476D77B00111D6F1770 /* Association.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Association.swift; path = GRDB/QueryInterface/Request/Association/Association.swift; sourceTree = "<group>"; };
+		B28C4CEF3A48AA42C9B2090434EDDD08 /* StatementColumnConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementColumnConvertible.swift; path = GRDB/Core/StatementColumnConvertible.swift; sourceTree = "<group>"; };
+		B36B29504FBFA7B89B20D1F8D30BAB1E /* DatabaseDateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseDateComponents.swift; path = GRDB/Core/Support/Foundation/DatabaseDateComponents.swift; sourceTree = "<group>"; };
+		B3D73823F0252CEAFB436E337093FB9F /* TimelineSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineSegment.swift; path = LocoKit/Timelines/TimelineObjects/TimelineSegment.swift; sourceTree = "<group>"; };
+		B3EAF57C8DA32748DE067CBF8B47EB24 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Sources/Upsurge/Hyperbolic.swift; sourceTree = "<group>"; };
+		B4727C23876280B09B21FEB2E37F9D60 /* Pods-AppleMapsFirstProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleMapsFirstProject.release.xcconfig"; sourceTree = "<group>"; };
+		B4C96A2B146663383E669B33F711478B /* Inflections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Inflections.swift; path = GRDB/Utils/Inflections.swift; sourceTree = "<group>"; };
+		B4CC0AC476E1680EC37F07423E966B7A /* TableRecord+Association.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TableRecord+Association.swift"; path = "GRDB/QueryInterface/TableRecord+Association.swift"; sourceTree = "<group>"; };
+		B577EE098A1509549D3C0F8CFE0276E3 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Sources/Upsurge/Matrix.swift; sourceTree = "<group>"; };
+		B6616975D250A9C7F8B4A5F8AA76BA7E /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Sources/Upsurge/Exponential.swift; sourceTree = "<group>"; };
+		B7B90DCEBEEBF79221FAADE497DDC79D /* ComplexArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArray.swift; path = Sources/Upsurge/ComplexArray.swift; sourceTree = "<group>"; };
+		B904BEBF5B6FEE367231FDC2F25D74F7 /* FTS3+QueryInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FTS3+QueryInterface.swift"; path = "GRDB/QueryInterface/FTS3+QueryInterface.swift"; sourceTree = "<group>"; };
+		BA06BA8D7014384670FFFF334EC3E00B /* LinearOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearOperators.swift; path = Sources/Upsurge/LinearOperators.swift; sourceTree = "<group>"; };
+		BB44F6D311BE59C9C22FD32DAE3FACF8 /* TensorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorType.swift; path = Sources/Upsurge/TensorType.swift; sourceTree = "<group>"; };
+		BC56B6D815879663B5394EA58B956052 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = GRDB/ValueObservation/ValueReducer/Combine.swift; sourceTree = "<group>"; };
+		BC8FA4D8E85E004D2D98111D2AE734C1 /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = Sources/Upsurge/Tensor.swift; sourceTree = "<group>"; };
+		BE2ECE98D0F2D458CCF191FA96081F9C /* LocomotionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocomotionManager.swift; path = LocoKit/Base/LocomotionManager.swift; sourceTree = "<group>"; };
+		BF161CD2E88BADCF4D7689A7624A15B0 /* SQLSpecificExpressible+QueryInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SQLSpecificExpressible+QueryInterface.swift"; path = "GRDB/QueryInterface/SQL/SQLSpecificExpressible+QueryInterface.swift"; sourceTree = "<group>"; };
+		BF2431819EE7E1F4D5F9E4D172F484F0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		BF619AD05F3D58DC66DE3A7D3F51923D /* RecordingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingState.swift; path = LocoKit/Base/RecordingState.swift; sourceTree = "<group>"; };
+		C20649E1487C8E27545D35A36BA51EFE /* TimelineRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineRecorder.swift; path = LocoKit/Timelines/TimelineRecorder.swift; sourceTree = "<group>"; };
+		C2593B7A7B2E9C8091C89D56EAB0ECFD /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = GRDB/ValueObservation/ValueReducer/Fetch.swift; sourceTree = "<group>"; };
+		C30999BB845BA31028C276889ED87B32 /* Localizable.cat.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.cat.strings; path = LocoKit/Base/Strings/Localizable.cat.strings; sourceTree = "<group>"; };
+		C385D7008615FA437B1129C6DC638807 /* Localizable.es.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.es.strings; path = LocoKit/Base/Strings/Localizable.es.strings; sourceTree = "<group>"; };
+		C3FD251CA2B24D91BE30CB8F6C876366 /* ValueObservation+Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueObservation+Row.swift"; path = "GRDB/ValueObservation/ValueObservation+Row.swift"; sourceTree = "<group>"; };
+		C41F248CB58AC8EB24B0EFDAEECECD59 /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = GRDB/Utils/OrderedDictionary.swift; sourceTree = "<group>"; };
+		C5928A7C489E320C539730E25325C9A3 /* TransactionObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionObserver.swift; path = GRDB/Core/TransactionObserver.swift; sourceTree = "<group>"; };
+		C932D3E3909D92FC80F207EC789135E1 /* SQLQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLQuery.swift; path = GRDB/QueryInterface/SQL/SQLQuery.swift; sourceTree = "<group>"; };
+		C9FCA08D25E5571E4762E6E46E25621F /* SQLForeignKeyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLForeignKeyRequest.swift; path = GRDB/QueryInterface/SQL/SQLForeignKeyRequest.swift; sourceTree = "<group>"; };
+		CA09C4882A066355EE8CD101BC821112 /* GRDB.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRDB.swift-dummy.m"; sourceTree = "<group>"; };
+		CA4E565C4EC9985F14E1995EBDAE2262 /* FetchableRecord+Decodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FetchableRecord+Decodable.swift"; path = "GRDB/Record/FetchableRecord+Decodable.swift"; sourceTree = "<group>"; };
+		CB19602F9B272CC34B4F166FF292576C /* LocoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocoKit.modulemap; sourceTree = "<group>"; };
+		CC35B35209DE7058EECBB7B927CCCC0B /* Pods-AppleMapsFirstProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleMapsFirstProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCB5A18DA2DD009A7532B49740F1EE13 /* GRDB.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRDB.swift.release.xcconfig; sourceTree = "<group>"; };
+		CD44D0498E2D891B2214533BAD45AD83 /* ActivityTypeTrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityTypeTrainable.swift; path = LocoKit/Timelines/ActivityTypes/ActivityTypeTrainable.swift; sourceTree = "<group>"; };
+		D010B4ED2196EE75FDD0061E7F1B32BF /* DatabasePool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabasePool.swift; path = GRDB/Core/DatabasePool.swift; sourceTree = "<group>"; };
+		D097D8470EDE555CBF9AC10FB7E85308 /* EncodableRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodableRecord.swift; path = GRDB/Record/EncodableRecord.swift; sourceTree = "<group>"; };
+		D254862FC52BB2F62BC0B825D6AE01C2 /* Upsurge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Upsurge.modulemap; sourceTree = "<group>"; };
+		D380F90340EF72C7A3418130D844957A /* LocoKitCoreBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocoKitCoreBridge.swift; path = LocoKit/Base/LocoKitCoreBridge.swift; sourceTree = "<group>"; };
+		D3F53DE93C4BE0568644B5227DDF20EB /* FTS3Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS3Pattern.swift; path = GRDB/FTS/FTS3Pattern.swift; sourceTree = "<group>"; };
+		D420B852FE40A27556797EBA5132E8E7 /* ComplexArraySlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplexArraySlice.swift; path = Sources/Upsurge/ComplexArraySlice.swift; sourceTree = "<group>"; };
+		D4A1335539049633642E34E65CFF8FED /* Pods-AppleMapsFirstProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleMapsFirstProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D538202C0632716DC59DBBDF057852FD /* SerializedDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializedDatabase.swift; path = GRDB/Core/SerializedDatabase.swift; sourceTree = "<group>"; };
+		DA6AB853CCA1BD2A2920638C9474DE5D /* TimelineStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineStore.swift; path = LocoKit/Timelines/TimelineStore.swift; sourceTree = "<group>"; };
+		DF2E7451269AEE5CCE04D21C16E16BFF /* DatabaseFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseFunction.swift; path = GRDB/Core/DatabaseFunction.swift; sourceTree = "<group>"; };
+		E0801D081FF779972831A2E9DD332458 /* GRDB.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRDB.swift.debug.xcconfig; sourceTree = "<group>"; };
+		E14B2E12B1522F2AD9B08C4D37B53C14 /* LinearType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearType.swift; path = Sources/Upsurge/LinearType.swift; sourceTree = "<group>"; };
+		E1882CC889F2C3F9AFD686AEDF9C4CA5 /* MergeScores.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MergeScores.swift; path = LocoKit/Timelines/MergeScores.swift; sourceTree = "<group>"; };
+		E307AF82E736CF0ABBA5FEB1C60084A9 /* Localizable.de.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.de.strings; path = LocoKit/Base/Strings/Localizable.de.strings; sourceTree = "<group>"; };
+		E335A5B7791BA0A913A2432DDE4FA13F /* SQLSelectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLSelectable.swift; path = GRDB/QueryInterface/SQL/SQLSelectable.swift; sourceTree = "<group>"; };
+		E43E1B52633A6B0A5B41358C564641E6 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Upsurge/Sequence.swift; sourceTree = "<group>"; };
+		E4410EFC76FBDCB66038711E4601CEC2 /* NSString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSString.swift; path = GRDB/Core/Support/Foundation/NSString.swift; sourceTree = "<group>"; };
+		E582220DE444F3843DAEBCAD9BB0796F /* TimelineClassifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineClassifier.swift; path = LocoKit/Timelines/TimelineClassifier.swift; sourceTree = "<group>"; };
+		E645A3B910A854D2D7C34912F3C00585 /* TableRecord+QueryInterfaceRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TableRecord+QueryInterfaceRequest.swift"; path = "GRDB/QueryInterface/TableRecord+QueryInterfaceRequest.swift"; sourceTree = "<group>"; };
+		E670D7477967065026BFA4F4A025E374 /* TimelineObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineObject.swift; path = LocoKit/Timelines/TimelineObjects/TimelineObject.swift; sourceTree = "<group>"; };
+		E69B950EF8139038A4FB90DA4D1D965C /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Sources/Upsurge/FFT.swift; sourceTree = "<group>"; };
+		E7F2562F79303F531FAC35BBDB649672 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = GRDB/Migration/Migration.swift; sourceTree = "<group>"; };
+		E7FCDFF19FD993F6D46CBC736BAC151B /* Upsurge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Upsurge-dummy.m"; sourceTree = "<group>"; };
+		E8F27C7E1F61AD247B1C6C10A3C87BD2 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoveDuplicates.swift; path = GRDB/ValueObservation/ValueReducer/RemoveDuplicates.swift; sourceTree = "<group>"; };
+		E95446FCE95672012ACDD95B14CCE8ED /* SQLGenerationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLGenerationContext.swift; path = GRDB/QueryInterface/SQLGeneration/SQLGenerationContext.swift; sourceTree = "<group>"; };
+		E95649BD1C295C27A9C2085CC5329A69 /* Database+Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Database+Schema.swift"; path = "GRDB/Core/Database+Schema.swift"; sourceTree = "<group>"; };
+		EA4DF32780B4D8BA398C0DDE37C0B055 /* RowAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowAdapter.swift; path = GRDB/Core/RowAdapter.swift; sourceTree = "<group>"; };
+		EA6D008A4F419713CA1BB7773233C9E4 /* ActivityTypesCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityTypesCache.swift; path = LocoKit/Timelines/ActivityTypes/ActivityTypesCache.swift; sourceTree = "<group>"; };
+		EB0C5F02E788FED8E93263BCEFDB5301 /* Complex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Complex.swift; path = Sources/Upsurge/Complex.swift; sourceTree = "<group>"; };
+		EC15867E3C7672FBC8F00780FBC81E8B /* MiscTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiscTools.swift; path = LocoKit/Base/Helpers/MiscTools.swift; sourceTree = "<group>"; };
+		EC5F0CCAD80C65F933A6003007AD7CDB /* LocoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocoKit-Info.plist"; sourceTree = "<group>"; };
+		ECE1AA8F3C281C7C8F9E8186BC966A27 /* GRDB.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GRDB.swift.modulemap; sourceTree = "<group>"; };
+		EE76FACAD19E37556370D3699DEE112A /* DatabaseValueConvertible+ReferenceConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DatabaseValueConvertible+ReferenceConvertible.swift"; path = "GRDB/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift"; sourceTree = "<group>"; };
+		F07F809972759CE73E3BE02734CD0498 /* DatabaseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseError.swift; path = GRDB/Core/DatabaseError.swift; sourceTree = "<group>"; };
+		F09B3D9B4F08BB132D96214D1705B08F /* HasOneAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HasOneAssociation.swift; path = GRDB/QueryInterface/Request/Association/HasOneAssociation.swift; sourceTree = "<group>"; };
+		F2726A8C2B1AE951EAEBA0D93ADDD0F5 /* ActivityType.scores.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityType.scores.swift; path = LocoKit/Timelines/ActivityTypes/ActivityType.scores.swift; sourceTree = "<group>"; };
+		F2BC34C782AB4C1951E7A1CFD22A487A /* ArrayTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayTools.swift; path = LocoKit/Base/Helpers/ArrayTools.swift; sourceTree = "<group>"; };
+		F3307D4DFDAC695A7504D26F1D3A5777 /* GRDB.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRDB.swift-prefix.pch"; sourceTree = "<group>"; };
+		F7A6180FFE287675794C1AA78900F29A /* FTS3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS3.swift; path = GRDB/FTS/FTS3.swift; sourceTree = "<group>"; };
+		F9369A77B3915AB2B8BB3D8A3445B964 /* DatabaseResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseResult.swift; path = GRDB/Utils/DatabaseResult.swift; sourceTree = "<group>"; };
+		F96FD9C9B5E7A8743685705392270F14 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = GRDB/Core/Support/Foundation/Date.swift; sourceTree = "<group>"; };
+		F991307CE7047A2DF0E746F3E15734C0 /* FTS5Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5Pattern.swift; path = GRDB/FTS/FTS5Pattern.swift; sourceTree = "<group>"; };
+		FB7B77DD88FAD0546CC119B7FDC3B6BF /* AssociationAggregate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociationAggregate.swift; path = GRDB/QueryInterface/Request/Association/AssociationAggregate.swift; sourceTree = "<group>"; };
+		FCBA415DC5A47977691AF8AD07EDC1DF /* MLClassifierManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLClassifierManager.swift; path = LocoKit/Timelines/ActivityTypes/MLClassifierManager.swift; sourceTree = "<group>"; };
+		FCC00B718AA3A6E8BCC5B86D53EA6161 /* SQLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLRequest.swift; path = GRDB/Core/SQLRequest.swift; sourceTree = "<group>"; };
+		FD30D4D5BAD73D28B5FE8EC61F956FD2 /* MLModelSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLModelSource.swift; path = LocoKit/Timelines/ActivityTypes/MLModelSource.swift; sourceTree = "<group>"; };
+		FD67306539A8618A1033057D72EAB4BC /* ItemsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemsObserver.swift; path = LocoKit/Timelines/ItemsObserver.swift; sourceTree = "<group>"; };
+		FDA464F9CABBED39BBBDE82AB251FEB4 /* DatabaseValueConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseValueConvertible.swift; path = GRDB/Core/DatabaseValueConvertible.swift; sourceTree = "<group>"; };
+		FE73230EF42FADE7B18B179F052A23E0 /* ValueObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueObservation.swift; path = GRDB/ValueObservation/ValueObservation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263182A8469D38AB3D1374097E0FCE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84358F28D653295A4CDDF8AFBCF23E48 /* CoreLocation.framework in Frameworks */,
+				EA62F70AB4013B5978EC742CD6E7B7B5 /* CoreMotion.framework in Frameworks */,
+				3EA818F055DD27B7D145514F9F1A9F41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C713146C34D93BE249F25BD600D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E95BD9372C6F7C4279167F7BE91B70A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C032B6125DE1EBAC21DBF41E6C33D2B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CB27252809D8E15B60C1D6ED6ACDBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B19041A95DF9354A15D1D50528F465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E49A9B60A8FDE5E746A6952607CAD8 /* Accelerate.framework in Frameworks */,
+				D71AB7F22676211C375AF30457FD4BE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E1047CCE00CB7559DC2FF9020B651E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D254862FC52BB2F62BC0B825D6AE01C2 /* Upsurge.modulemap */,
+				E7FCDFF19FD993F6D46CBC736BAC151B /* Upsurge-dummy.m */,
+				0AA734E47FC0FB509B0B6DBF811A3BE6 /* Upsurge-Info.plist */,
+				3CC23B4D5C19B4CA625C54ED4ABECE16 /* Upsurge-prefix.pch */,
+				2BA44E9BAC05D1865895FE6770762FCA /* Upsurge-umbrella.h */,
+				A00FF2E69A048D1D67A18602A17F99DA /* Upsurge.debug.xcconfig */,
+				43FED9C9A71ED686F31C7E7BC28D3AF2 /* Upsurge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Upsurge";
+			sourceTree = "<group>";
+		};
+		2392785CB6A084D8D3D016D612CBD6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7682CDEC9D20FFD65191AF5879023038 /* GRDB.swift */,
+				5AE7D565F7CB5CE3D2303AA7549466AA /* LocoKit */,
+				982D5C134173EF45DFC9CFB802516365 /* LocoKitCore */,
+				D25549F81107CE147C5374CF24ABA78D /* Upsurge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26A3A828FD1038AD6202FC59E3F32776 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9CB486709E3768761EF72AA660544583 /* ActivityType.swift */,
+				F2726A8C2B1AE951EAEBA0D93ADDD0F5 /* ActivityType.scores.swift */,
+				8769DE3DC60CEEEC72D0E8E7D118268A /* ActivityTypeClassifiable.swift */,
+				89A36C1BDB2708000294BFEBE262D21B /* ActivityTypeClassifier.swift */,
+				1EB6A5E78807300A4A84AEB441D047D5 /* ActivityTypeName.swift */,
+				EA6D008A4F419713CA1BB7773233C9E4 /* ActivityTypesCache.swift */,
+				CD44D0498E2D891B2214533BAD45AD83 /* ActivityTypeTrainable.swift */,
+				F2BC34C782AB4C1951E7A1CFD22A487A /* ArrayTools.swift */,
+				16B310EE116180B5BC82AE6900573B6D /* ClassifierResultItem.swift */,
+				A1575393D055B3CA404C40EBEF9EB211 /* ClassifierResults.swift */,
+				8A4AF2171DDEB61F6B5AFBF4931E7292 /* CLLocationTools.swift */,
+				7E011B008506AA9E15D89B562853D4CA /* CLPlacemarkCache.swift */,
+				53BE78EF405E98F305B6EEA86EABF48C /* CoordinatesMatrix.swift */,
+				9F413F7BFECD9F59562C32DF8AC951FD /* CoordinateTrust.swift */,
+				58CF8B98B7D30D61C9A532185BCB7B18 /* CoordinateTrustManager.swift */,
+				91DD8CC1667AE2EF70BEE6552B174082 /* Histogram.swift */,
+				4024FBE0C462F0BA4428F58B4D81E86D /* ItemSegment.swift */,
+				FD67306539A8618A1033057D72EAB4BC /* ItemsObserver.swift */,
+				35B9CBF3FF28F4C46451706E5C57FB87 /* Jobs.swift */,
+				C30999BB845BA31028C276889ED87B32 /* Localizable.cat.strings */,
+				E307AF82E736CF0ABBA5FEB1C60084A9 /* Localizable.de.strings */,
+				9BB80EA0B41F19A369B054376AB74A74 /* Localizable.en.strings */,
+				C385D7008615FA437B1129C6DC638807 /* Localizable.es.strings */,
+				7F7660B06EFE1E16CDD636F9277D5191 /* Localizable.fr.strings */,
+				7B17F4A32380DC415D1EAB590FCF69F4 /* Localizable.ja.strings */,
+				426E723A9624137ECA1C21CE2B9EBAD8 /* Localizable.th.strings */,
+				D380F90340EF72C7A3418130D844957A /* LocoKitCoreBridge.swift */,
+				BE2ECE98D0F2D458CCF191FA96081F9C /* LocomotionManager.swift */,
+				06B9BD45662434A2C92583EBEF905DC0 /* LocomotionSample.swift */,
+				85E5CB8228442D49F6D2FA9172919420 /* Merge.swift */,
+				E1882CC889F2C3F9AFD686AEDF9C4CA5 /* MergeScores.swift */,
+				EC15867E3C7672FBC8F00780FBC81E8B /* MiscTools.swift */,
+				1536D6BF27ED0B4FDB619DF9BE384AC5 /* MLClassifier.swift */,
+				FCBA415DC5A47977691AF8AD07EDC1DF /* MLClassifierManager.swift */,
+				12BEE1649F0705EA837C4AF9E6FABC8E /* MLCompositeClassifier.swift */,
+				407F59A85800C888F911C4FF4178F046 /* MLModel.swift */,
+				FD30D4D5BAD73D28B5FE8EC61F956FD2 /* MLModelSource.swift */,
+				0C96386C3EBEE334CB5FF1E8AF7754B6 /* MutableActivityType.swift */,
+				5678A63CD1ED5FC1158D3C9D9C9C0DB8 /* NotificationNames.swift */,
+				6AFCAA6FA10062384194DE2F4CE1EB2A /* Path.swift */,
+				7DEAF3A51AB22391FC64A99A9C2E1FF9 /* PersistentSample.swift */,
+				BF619AD05F3D58DC66DE3A7D3F51923D /* RecordingState.swift */,
+				60E181E040010FB8A1CD8FFB08E4FA04 /* RowCopy.swift */,
+				9C8C0625B5DD6550BA2FABB7D84DEA4F /* StringTools.swift */,
+				E582220DE444F3843DAEBCAD9BB0796F /* TimelineClassifier.swift */,
+				9123AB0EE86BCAC2DA73ACEC3A32375F /* TimelineItem.swift */,
+				E670D7477967065026BFA4F4A025E374 /* TimelineObject.swift */,
+				65E0794FAD9E4808A9C813FD18DDFC80 /* TimelineProcessor.swift */,
+				C20649E1487C8E27545D35A36BA51EFE /* TimelineRecorder.swift */,
+				B3D73823F0252CEAFB436E337093FB9F /* TimelineSegment.swift */,
+				DA6AB853CCA1BD2A2920638C9474DE5D /* TimelineStore.swift */,
+				04D97B759BCD8D5DFB7CB3C68D70EED4 /* TimelineStore+Migrations.swift */,
+				2E3170C4BBDFDE1A46152F5B92BC0274 /* TrustAssessor.swift */,
+				56EE0D0D3BA7AA9846039A595D00AF7D /* Visit.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		5AE7D565F7CB5CE3D2303AA7549466AA /* LocoKit */ = {
+			isa = PBXGroup;
+			children = (
+				26A3A828FD1038AD6202FC59E3F32776 /* Base */,
+				884D8513D2F0C004E1B90CB2C6F53A25 /* Support Files */,
+			);
+			name = LocoKit;
+			path = LocoKit;
+			sourceTree = "<group>";
+		};
+		68A9320BC9486F62C1DB6537DD55DF8B /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				B27627871569B476D77B00111D6F1770 /* Association.swift */,
+				FB7B77DD88FAD0546CC119B7FDC3B6BF /* AssociationAggregate.swift */,
+				3846B28E8E4ACEEC3CCA7E8F64623D69 /* BelongsToAssociation.swift */,
+				0FE685497FDB5E7D4D3EA48EAE6B03BF /* CGFloat.swift */,
+				387AC5286DBBB6A821A8EE3128D12184 /* Column.swift */,
+				BC56B6D815879663B5394EA58B956052 /* Combine.swift */,
+				6BAB17875334E3EB34BB85ED460C305A /* CompactMap.swift */,
+				8E8CC22CA29144BDE648CD22BE78A370 /* Configuration.swift */,
+				80B61FB0A9319A14AEF0D1F794B175D6 /* Cursor.swift */,
+				244B8A04B216BA60D00521F4E7297501 /* Data.swift */,
+				020AAB6CB059C44411274602350E9ECF /* Database.swift */,
+				E95649BD1C295C27A9C2085CC5329A69 /* Database+Schema.swift */,
+				619AE9C400EAE8C29D0E60A636951589 /* Database+Statements.swift */,
+				783BF728955977036445AE9DBD0E3095 /* DatabaseCollation.swift */,
+				B36B29504FBFA7B89B20D1F8D30BAB1E /* DatabaseDateComponents.swift */,
+				F07F809972759CE73E3BE02734CD0498 /* DatabaseError.swift */,
+				DF2E7451269AEE5CCE04D21C16E16BFF /* DatabaseFunction.swift */,
+				5E6FEC28B4E7AB4F0B05F28DCEA029FC /* DatabaseMigrator.swift */,
+				D010B4ED2196EE75FDD0061E7F1B32BF /* DatabasePool.swift */,
+				57A177730FD7BA02F856045F0E3EE7E2 /* DatabasePromise.swift */,
+				13D3708EFC646DA9D3D0915620EA87BB /* DatabaseQueue.swift */,
+				359E855B55643742016170C269D5B79B /* DatabaseReader.swift */,
+				23173EEE83E19549268186FFDE5C142C /* DatabaseRegion.swift */,
+				96E3F1D4DC7C3E09B5F710212899394F /* DatabaseRegionObservation.swift */,
+				F9369A77B3915AB2B8BB3D8A3445B964 /* DatabaseResult.swift */,
+				0A7E29BA57D7A16371D9030E045740D9 /* DatabaseSchemaCache.swift */,
+				2A5061CB14A0509BC4C5A43B8D9E333A /* DatabaseSnapshot.swift */,
+				6C1D9FDEE6B95233EA3F1557CB8028A9 /* DatabaseValue.swift */,
+				006DB9DA612F5F59DE4600B1885007FC /* DatabaseValueConversion.swift */,
+				FDA464F9CABBED39BBBDE82AB251FEB4 /* DatabaseValueConvertible.swift */,
+				1E7A0825BF77D61C27EE8A9EB3FF658F /* DatabaseValueConvertible+Decodable.swift */,
+				A9CA20F3C2AA329D1DF1A086532B2F9E /* DatabaseValueConvertible+Encodable.swift */,
+				70C1D626A48CC69601FA66BB8F665F0E /* DatabaseValueConvertible+RawRepresentable.swift */,
+				EE76FACAD19E37556370D3699DEE112A /* DatabaseValueConvertible+ReferenceConvertible.swift */,
+				302E0DCAD20D5EC24DEBA5B95AA60C41 /* DatabaseWriter.swift */,
+				F96FD9C9B5E7A8743685705392270F14 /* Date.swift */,
+				D097D8470EDE555CBF9AC10FB7E85308 /* EncodableRecord.swift */,
+				88599454D21BEADA9E0DCCF41BA7F4CA /* EncodableRecord+Encodable.swift */,
+				C2593B7A7B2E9C8091C89D56EAB0ECFD /* Fetch.swift */,
+				47E69F24981F716CF287BB39F3A396F6 /* FetchableRecord.swift */,
+				CA4E565C4EC9985F14E1995EBDAE2262 /* FetchableRecord+Decodable.swift */,
+				ADB0A19F8D66C6CBCDCE06547769A81B /* FetchableRecord+TableRecord.swift */,
+				4152B0914231F14F610E62C290E43CAC /* FetchedRecordsController.swift */,
+				21769F1F03A4EC0B0CDCEF8D78C0E863 /* FetchRequest.swift */,
+				F7A6180FFE287675794C1AA78900F29A /* FTS3.swift */,
+				B904BEBF5B6FEE367231FDC2F25D74F7 /* FTS3+QueryInterface.swift */,
+				D3F53DE93C4BE0568644B5227DDF20EB /* FTS3Pattern.swift */,
+				45F0C3B137ED78CEE0028D1EEC3054FB /* FTS3TokenizerDescriptor.swift */,
+				1401D8E1247BDDAD6B253A98DDE0DBA1 /* FTS4.swift */,
+				AAC78B4F41955F25E426FEBED3BADC0C /* FTS5.swift */,
+				537A825E133554D2542BFDCAA455C215 /* FTS5+QueryInterface.swift */,
+				5F2A932050D29D5D6B590DF99FF1D82F /* FTS5CustomTokenizer.swift */,
+				F991307CE7047A2DF0E746F3E15734C0 /* FTS5Pattern.swift */,
+				5E514D8622C41D2E58DFE99DB006F633 /* FTS5Tokenizer.swift */,
+				88EBBBE457CC3BEA6C82EDBBB447EA39 /* FTS5TokenizerDescriptor.swift */,
+				7CF40D5A1E5C6629DC11E9541EC1128D /* FTS5WrapperTokenizer.swift */,
+				A1A82AB76F73C3E79DAF603090459F37 /* GRDB-4.0.swift */,
+				81BF4F800AA31CA734EFB95FC260CE08 /* grdb_config.h */,
+				84A36F1CA645664D31F3A28B2FC4EF41 /* HasManyAssociation.swift */,
+				817057CEB9D07F5CEF7E0AEFB2D82FB3 /* HasManyThroughAssociation.swift */,
+				F09B3D9B4F08BB132D96214D1705B08F /* HasOneAssociation.swift */,
+				879C943EA4431713FBED32D87D59F798 /* HasOneThroughAssociation.swift */,
+				B4C96A2B146663383E669B33F711478B /* Inflections.swift */,
+				5F72E72E57233B23ED640B9732231D3E /* Inflections+English.swift */,
+				27F8E603D4B2DF3162907FD015B2A212 /* KeyPathRefining.swift */,
+				68B5D4AB137152B6606537DA2788A78C /* LockedBox.swift */,
+				31EA3E2695CCA49890BD29A4A5AB0523 /* Map.swift */,
+				E7F2562F79303F531FAC35BBDB649672 /* Migration.swift */,
+				8FB27E95C097C976998F5C9C327A0D26 /* NSData.swift */,
+				5BBE2213D830F201581EFCED77F9C1A0 /* NSNull.swift */,
+				AB93CABF5989F38D273ACB8534036D38 /* NSNumber.swift */,
+				E4410EFC76FBDCB66038711E4601CEC2 /* NSString.swift */,
+				C41F248CB58AC8EB24B0EFDAEECECD59 /* OrderedDictionary.swift */,
+				4C3E7B620F190A5A1AD35C13FC62F828 /* PersistableRecord.swift */,
+				0307E30BDE67935C8A919A5DE8338743 /* Pool.swift */,
+				A2F4ACAEBAF5CA58EFDC851C8F0E7327 /* QueryInterfaceRequest.swift */,
+				0FA04636700E83A2F40E7DCF89C49C18 /* QueryInterfaceRequest+Association.swift */,
+				14C8CF8029CD06F8E81D2500B79B4905 /* ReadWriteBox.swift */,
+				2D8E6830103D7FFFEABFE58C259A60BC /* Record.swift */,
+				E8F27C7E1F61AD247B1C6C10A3C87BD2 /* RemoveDuplicates.swift */,
+				0C0ACDDC571E135624188CD44870E23D /* RequestProtocols.swift */,
+				46B2A6CA43DF0BCE381A4F695A50AA6C /* Row.swift */,
+				EA4DF32780B4D8BA398C0DDE37C0B055 /* RowAdapter.swift */,
+				51E3FF64D280B46966D1C78E316AA556 /* SchedulingWatchdog.swift */,
+				D538202C0632716DC59DBBDF057852FD /* SerializedDatabase.swift */,
+				04CC37AE2711EEE8FDC1DCD661A06DF7 /* SQLAssociation.swift */,
+				0540D82CA5D71650A09C3694D213E1A9 /* SQLCollatedExpression.swift */,
+				0747E004A8FC515FD4DC1A1CB6714FA3 /* SQLCollection.swift */,
+				171BB003819CE00F8D296A06B4EF0B4E /* SQLExpressible.swift */,
+				814BD6F38D085B66E4EDA5A69254751D /* SQLExpression.swift */,
+				43C7892140BF67F24ADC5E3D1235053C /* SQLExpression+QueryInterface.swift */,
+				C9FCA08D25E5571E4762E6E46E25621F /* SQLForeignKeyRequest.swift */,
+				AEBDBCEC7101BE9B4FAB5E76730BE581 /* SQLFunctions.swift */,
+				E95446FCE95672012ACDD95B14CCE8ED /* SQLGenerationContext.swift */,
+				484C81F4CB7E80D758AB17DC835B1AC2 /* SQLInterpolation.swift */,
+				075DFB5FBD6ADA46C693D1745DCF4A55 /* SQLInterpolation+QueryInterface.swift */,
+				68CD47BAA3B76E12C61A40B6128C79B2 /* SQLiteDateParser.swift */,
+				0D8CB13FFAEEC8F038BD3818CC0EF450 /* SQLLiteral.swift */,
+				A141B02C35ECF2E0A975A31A6EC1A6D4 /* SQLOperators.swift */,
+				A0DFA64A8BE0F19716EBA965E4C97F47 /* SQLOrdering.swift */,
+				C932D3E3909D92FC80F207EC789135E1 /* SQLQuery.swift */,
+				6EF054FAC27825DDA41ABC13C72958B1 /* SQLQueryGenerator.swift */,
+				09114490B0301670AEDD65C64083C085 /* SQLRelation.swift */,
+				FCC00B718AA3A6E8BCC5B86D53EA6161 /* SQLRequest.swift */,
+				E335A5B7791BA0A913A2432DDE4FA13F /* SQLSelectable.swift */,
+				90F3920A59A9DD1B4AA9C333925F0936 /* SQLSelectable+QueryInterface.swift */,
+				BF161CD2E88BADCF4D7689A7624A15B0 /* SQLSpecificExpressible+QueryInterface.swift */,
+				810AD49789AF891FED88F55076B2293E /* StandardLibrary.swift */,
+				A8A867B06BABD90DA7713FF9C31FD823 /* Statement.swift */,
+				4ED8C8632BAA5F30569B8F8CB1040677 /* StatementAuthorizer.swift */,
+				B28C4CEF3A48AA42C9B2090434EDDD08 /* StatementColumnConvertible.swift */,
+				846324F589597F8FE9EC8C0FE002691E /* TableDefinition.swift */,
+				8B07DA93DC1F1824AC7511E11FE0A11A /* TableRecord.swift */,
+				B4CC0AC476E1680EC37F07423E966B7A /* TableRecord+Association.swift */,
+				E645A3B910A854D2D7C34912F3C00585 /* TableRecord+QueryInterfaceRequest.swift */,
+				C5928A7C489E320C539730E25325C9A3 /* TransactionObserver.swift */,
+				273F9B2BCA38A4686CAF2A0724DCDE3D /* URL.swift */,
+				55888A9D0D214728C0E11DDB76B127EA /* Utils.swift */,
+				27E6F2E987D4891EAF531F154485564B /* UUID.swift */,
+				FE73230EF42FADE7B18B179F052A23E0 /* ValueObservation.swift */,
+				A3FC3EDB81BD25884E1D08396469267E /* ValueObservation+Count.swift */,
+				2BCCA3F044826B4B57A1565EC7B27CC3 /* ValueObservation+DatabaseValueConvertible.swift */,
+				51AF2CDD45B09794FA7875B6FAC41D6F /* ValueObservation+FetchableRecord.swift */,
+				A2CF4804F8A1E11E1AF952F98EE1BFA7 /* ValueObservation+MapReducer.swift */,
+				C3FD251CA2B24D91BE30CB8F6C876366 /* ValueObservation+Row.swift */,
+				8A116E885E0107251F8E36E5F98B4BA9 /* ValueObserver.swift */,
+				7993B36A631337CD7ADA4372CFA9FD1B /* ValueReducer.swift */,
+				687C322F23C0E15037A9982AE904E98F /* VirtualTableModule.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		715D090B03DBC38344176F247C98EA8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE02811E297F65080D6AAA470C72C23 /* LocoKitCore.debug.xcconfig */,
+				586080C33A7E7DFE6BAEB7783847E81D /* LocoKitCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LocoKitCore";
+			sourceTree = "<group>";
+		};
+		72C07D12D2179EBB2F19A359D04CBC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17ABD68E920293F080122810A8881638 /* GRDB.swift */,
+				7671D0B171131D83463C8742BB6E60CC /* LocoKit */,
+				1DCD46C0C447B3BEAC5E8AA334734CB3 /* Pods-AppleMapsFirstProject */,
+				78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7682CDEC9D20FFD65191AF5879023038 /* GRDB.swift */ = {
+			isa = PBXGroup;
+			children = (
+				68A9320BC9486F62C1DB6537DD55DF8B /* standard */,
+				D7CFA0782577ECDE2BEA445647FAA5D9 /* Support Files */,
+			);
+			name = GRDB.swift;
+			path = GRDB.swift;
+			sourceTree = "<group>";
+		};
+		884D8513D2F0C004E1B90CB2C6F53A25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB19602F9B272CC34B4F166FF292576C /* LocoKit.modulemap */,
+				69D63EB5EC48B713FF601EE453579777 /* LocoKit-dummy.m */,
+				EC5F0CCAD80C65F933A6003007AD7CDB /* LocoKit-Info.plist */,
+				868E8F8AB44A4EADEC7378204820CB75 /* LocoKit-prefix.pch */,
+				9618AF3C15C62F3454EBD297ABDEE4FC /* LocoKit-umbrella.h */,
+				8BC1EC176680C2D70E1741838BA88939 /* LocoKit.debug.xcconfig */,
+				20CFF0EE6EFF9D586997F4D835DAB87E /* LocoKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LocoKit";
+			sourceTree = "<group>";
+		};
+		9417EDD2E8C6FEE64779F7B86049A0F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8807A1683BEFB92A8EAEE8CAA66BDF65 /* LocoKitCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		982D5C134173EF45DFC9CFB802516365 /* LocoKitCore */ = {
+			isa = PBXGroup;
+			children = (
+				9417EDD2E8C6FEE64779F7B86049A0F6 /* Frameworks */,
+				715D090B03DBC38344176F247C98EA8B /* Support Files */,
+			);
+			name = LocoKitCore;
+			path = LocoKitCore;
+			sourceTree = "<group>";
+		};
+		A02878093CD2CC37C4BC62200C8D53A2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF2431819EE7E1F4D5F9E4D172F484F0 /* Accelerate.framework */,
+				58E746F27BE695F87F41620AAD0CBFCF /* CoreLocation.framework */,
+				33CB861D0567D5BA8B6BEF34764B90DC /* CoreMotion.framework */,
+				06B8CF4679A438BB043006AE1B7F617C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B9E8123FC1C72888A5931356A2641E73 /* Pods-AppleMapsFirstProject */ = {
+			isa = PBXGroup;
+			children = (
+				45D393EBF12132C11AE912DCE384E9A4 /* Pods-AppleMapsFirstProject.modulemap */,
+				7B8C4BDDEF34712D9FAD396AA402123F /* Pods-AppleMapsFirstProject-acknowledgements.markdown */,
+				CC35B35209DE7058EECBB7B927CCCC0B /* Pods-AppleMapsFirstProject-acknowledgements.plist */,
+				5296BA3B7BE4966E8A8F32C1DD9C686B /* Pods-AppleMapsFirstProject-dummy.m */,
+				965E8A0B305BCFC9AE970EC2A5A38518 /* Pods-AppleMapsFirstProject-frameworks.sh */,
+				5048CAA09705CF72B0460E22BB6183DE /* Pods-AppleMapsFirstProject-Info.plist */,
+				2B763633FCBB147ACFDE8034D382D6DB /* Pods-AppleMapsFirstProject-umbrella.h */,
+				D4A1335539049633642E34E65CFF8FED /* Pods-AppleMapsFirstProject.debug.xcconfig */,
+				B4727C23876280B09B21FEB2E37F9D60 /* Pods-AppleMapsFirstProject.release.xcconfig */,
+			);
+			name = "Pods-AppleMapsFirstProject";
+			path = "Target Support Files/Pods-AppleMapsFirstProject";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02878093CD2CC37C4BC62200C8D53A2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				2392785CB6A084D8D3D016D612CBD6B4 /* Pods */,
+				72C07D12D2179EBB2F19A359D04CBC63 /* Products */,
+				E6087B242ABE4F66EB26BA44D40F282E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D25549F81107CE147C5374CF24ABA78D /* Upsurge */ = {
+			isa = PBXGroup;
+			children = (
+				06ECD77899385DF4683869D0B8C4005B /* 2DTensorSlice.swift */,
+				44247F9F2467CFFBAA8A9F73D4F4AEE4 /* Arithmetic.swift */,
+				58A583D3C06CE9BFD877779935B6C64C /* Auxiliary.swift */,
+				EB0C5F02E788FED8E93263BCEFDB5301 /* Complex.swift */,
+				B25F556251D5FA6C3176DD5E48CC6C78 /* ComplexArithmetic.swift */,
+				B7B90DCEBEEBF79221FAADE497DDC79D /* ComplexArray.swift */,
+				8AE0202CE04FD731B9F36CA08E1807BD /* ComplexArrayRealSlice.swift */,
+				D420B852FE40A27556797EBA5132E8E7 /* ComplexArraySlice.swift */,
+				7527DFFBF93476D9E0D8DC1D996441B7 /* DSP.swift */,
+				B6616975D250A9C7F8B4A5F8AA76BA7E /* Exponential.swift */,
+				E69B950EF8139038A4FB90DA4D1D965C /* FFT.swift */,
+				B3EAF57C8DA32748DE067CBF8B47EB24 /* Hyperbolic.swift */,
+				402334D51B16AA91D20417C602C13483 /* Interval.swift */,
+				BA06BA8D7014384670FFFF334EC3E00B /* LinearOperators.swift */,
+				E14B2E12B1522F2AD9B08C4D37B53C14 /* LinearType.swift */,
+				B577EE098A1509549D3C0F8CFE0276E3 /* Matrix.swift */,
+				6C78A5536D4CAFE542F7EC986052C897 /* MatrixArithmetic.swift */,
+				264F72DF8F15FE6EF58292BE0B28CE08 /* MatrixSlice.swift */,
+				98DFCA89EB30AF41B0E4309887065D0B /* PointerUtilities.swift */,
+				1E35F31A343E383FE70D804CF49D141A /* QuadraticType.swift */,
+				0CA672053D69BDF98AD879B91210896E /* Real.swift */,
+				E43E1B52633A6B0A5B41358C564641E6 /* Sequence.swift */,
+				73F231BDEE14A6739167BDFC4434E822 /* Span.swift */,
+				BC8FA4D8E85E004D2D98111D2AE734C1 /* Tensor.swift */,
+				74C19CE89C2E52648A727CDEBE45B431 /* TensorSlice.swift */,
+				BB44F6D311BE59C9C22FD32DAE3FACF8 /* TensorType.swift */,
+				77546866AF68EFC7E02025DAA867A06C /* Trigonometric.swift */,
+				8A6219109E2D43B8F80CEF0AD9816610 /* Value.swift */,
+				71DD4030AE15B0F0B32989DBCA95E2FF /* ValueArray.swift */,
+				30DA7988460D999092209539B7A52372 /* ValueArraySlice.swift */,
+				12E1047CCE00CB7559DC2FF9020B651E /* Support Files */,
+			);
+			name = Upsurge;
+			path = Upsurge;
+			sourceTree = "<group>";
+		};
+		D7CFA0782577ECDE2BEA445647FAA5D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1AA8F3C281C7C8F9E8186BC966A27 /* GRDB.swift.modulemap */,
+				CA09C4882A066355EE8CD101BC821112 /* GRDB.swift-dummy.m */,
+				7A7E95AF68DB6AFCDD7420EDB05E6CEF /* GRDB.swift-Info.plist */,
+				F3307D4DFDAC695A7504D26F1D3A5777 /* GRDB.swift-prefix.pch */,
+				3E7D5087101F7AE8CABAEDC8D209D901 /* GRDB.swift-umbrella.h */,
+				E0801D081FF779972831A2E9DD332458 /* GRDB.swift.debug.xcconfig */,
+				CCB5A18DA2DD009A7532B49740F1EE13 /* GRDB.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GRDB.swift";
+			sourceTree = "<group>";
+		};
+		E6087B242ABE4F66EB26BA44D40F282E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E8123FC1C72888A5931356A2641E73 /* Pods-AppleMapsFirstProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00DFE83B2C4A4AE0EFCE4125BBA0EE0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2760E44976D645FBED264D73A96111 /* Pods-AppleMapsFirstProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06944BE9DDC1141E245B02ABA96758C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64CBEE4098038DDC1ADB4C56A25A11 /* LocoKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B776EC881B8EBB50B9340300FD3839 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2E3A956A8C6C2E333638D7C3D4B7E3 /* Upsurge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8683ABE9F08CB87DCB89BEFA0EACFB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F553C1EF375868F9B365FE4E3C1C0FED /* GRDB.swift-umbrella.h in Headers */,
+				7252A06A8AD572B5DADD3A0F98A88F0C /* grdb_config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A86C228CFCBC35A1FD284274ED0930F /* GRDB.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C5502CA63C2CE26463EF683DFD8057 /* Build configuration list for PBXNativeTarget "GRDB.swift" */;
+			buildPhases = (
+				A8683ABE9F08CB87DCB89BEFA0EACFB7 /* Headers */,
+				B1138473BA3C84448153444407E3A77A /* Sources */,
+				ABC5C713146C34D93BE249F25BD600D0 /* Frameworks */,
+				C5B9F3D5A0ECF0210B2EFE843A6F62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRDB.swift;
+			productName = GRDB;
+			productReference = 17ABD68E920293F080122810A8881638 /* GRDB.swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EAACCA1B1FF2EFE22FBA9E14D36055C /* LocoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C773E120367ADC1FF1251D7282516034 /* Build configuration list for PBXNativeTarget "LocoKit" */;
+			buildPhases = (
+				06944BE9DDC1141E245B02ABA96758C9 /* Headers */,
+				0BD79D92FEA267C7E51D48C4188A5CB5 /* Sources */,
+				263182A8469D38AB3D1374097E0FCE96 /* Frameworks */,
+				C78463A318141A924FCB434CB4D76AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17A6F958B3DE4ECBCE6BC7BB1EB8963 /* PBXTargetDependency */,
+				B4E04C444750081E5A8F8D959CF51CF8 /* PBXTargetDependency */,
+				423C748E7AA3E9F619F66E6E4DB737C7 /* PBXTargetDependency */,
+			);
+			name = LocoKit;
+			productName = LocoKit;
+			productReference = 7671D0B171131D83463C8742BB6E60CC /* LocoKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F02798A12C72F069A02BA995A540B6B /* Build configuration list for PBXNativeTarget "Upsurge" */;
+			buildPhases = (
+				96B776EC881B8EBB50B9340300FD3839 /* Headers */,
+				3766A9FD85FCC63CCA52DCA39C49574A /* Sources */,
+				F3B19041A95DF9354A15D1D50528F465 /* Frameworks */,
+				A4506D66FCFC7DB6453C455756D9C745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Upsurge;
+			productName = Upsurge;
+			productReference = 78DB2AC588BD42915DBE806C6D1628F4 /* Upsurge */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9DC342F2A9247D9C7B4CA0D5C0EB758 /* Pods-AppleMapsFirstProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211E7AE77D8060FB22AD358E4A67D53C /* Build configuration list for PBXNativeTarget "Pods-AppleMapsFirstProject" */;
+			buildPhases = (
+				00DFE83B2C4A4AE0EFCE4125BBA0EE0F /* Headers */,
+				57E3766D633663C1464BC11B4A075C0B /* Sources */,
+				C032B6125DE1EBAC21DBF41E6C33D2B9 /* Frameworks */,
+				E5436FFDDCBCE670451399E7404166BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				999E08BBA76F3899B1AF6DA12874AB1A /* PBXTargetDependency */,
+				B40CEA16EE30847EA8B0D3ACFCEB7696 /* PBXTargetDependency */,
+				0D2C1FFC0FD6435A056536D629B2B998 /* PBXTargetDependency */,
+				B5C669BC113E5CF1AA389E177C84444B /* PBXTargetDependency */,
+			);
+			name = "Pods-AppleMapsFirstProject";
+			productName = Pods_AppleMapsFirstProject;
+			productReference = 1DCD46C0C447B3BEAC5E8AA334734CB3 /* Pods-AppleMapsFirstProject */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 72C07D12D2179EBB2F19A359D04CBC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A86C228CFCBC35A1FD284274ED0930F /* GRDB.swift */,
+				4EAACCA1B1FF2EFE22FBA9E14D36055C /* LocoKit */,
+				7248CFD42349B334F2AA6A390906D204 /* LocoKitCore */,
+				A9DC342F2A9247D9C7B4CA0D5C0EB758 /* Pods-AppleMapsFirstProject */,
+				5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4506D66FCFC7DB6453C455756D9C745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B9F3D5A0ECF0210B2EFE843A6F62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78463A318141A924FCB434CB4D76AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5436FFDDCBCE670451399E7404166BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BD79D92FEA267C7E51D48C4188A5CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC87D6905D8CCE8FCCDC777C085C5F /* ActivityType.swift in Sources */,
+				1C08832E7649B069F7A9F42F50DEACBF /* ActivityType.scores.swift in Sources */,
+				B45093A1D34D778A5AE8D284AA983F18 /* ActivityTypeClassifiable.swift in Sources */,
+				926AD4E65D90EF185ED5D390F67821E9 /* ActivityTypeClassifier.swift in Sources */,
+				B472C1CBCC262660B77F4F87F2E86A64 /* ActivityTypeName.swift in Sources */,
+				7595D2D3CE45E2C95B27C54F42C4AA74 /* ActivityTypesCache.swift in Sources */,
+				CFBA65E91C9FA82EA88657C1B0DC4DDE /* ActivityTypeTrainable.swift in Sources */,
+				2457850D604A36099A248EE6951B5557 /* ArrayTools.swift in Sources */,
+				51BA53DF38B799335E2ECBB76AF5A54D /* ClassifierResultItem.swift in Sources */,
+				E29C993152554A1DE0A30640E04F9845 /* ClassifierResults.swift in Sources */,
+				380F5F1A248EB05E80C71A8DD7498109 /* CLLocationTools.swift in Sources */,
+				F8F665CC9DAFB66A4464567A5AFFE70E /* CLPlacemarkCache.swift in Sources */,
+				4E45C259F0E81B776CCC688BFF31691F /* CoordinatesMatrix.swift in Sources */,
+				02C070F06F356DBEA2D15E36A58DF350 /* CoordinateTrust.swift in Sources */,
+				1ABD482B1E5EB8724D52115D70EBADAA /* CoordinateTrustManager.swift in Sources */,
+				3BCFDCE672539FF8BB671D24FFE95059 /* Histogram.swift in Sources */,
+				235F054078AA08E524D25855A0571BD0 /* ItemSegment.swift in Sources */,
+				96E6917A11C71692D8C4B47D1F24D33D /* ItemsObserver.swift in Sources */,
+				F6C42789D2D4F639323FAA8141D25236 /* Jobs.swift in Sources */,
+				BDEA55293CF7853A7596A6DE20E09282 /* Localizable.cat.strings in Sources */,
+				96F95E355FBDEDF1611C78BE62443F43 /* Localizable.de.strings in Sources */,
+				41EA5B6D810124C1D86C2FD8E1225B85 /* Localizable.en.strings in Sources */,
+				5DC6682D01C9DDA5FEBB7270006FC9C6 /* Localizable.es.strings in Sources */,
+				2B7DC83E2A1DAF4C6BF687E43F853A58 /* Localizable.fr.strings in Sources */,
+				E0BB7295443B25F44E3B87AF7D3C0CE0 /* Localizable.ja.strings in Sources */,
+				EF361982F0029E4DB449F579DAA1BEC2 /* Localizable.th.strings in Sources */,
+				9BEE4BDDD0D77D0CFE6D1521F7628F90 /* LocoKit-dummy.m in Sources */,
+				13EDC28021F75AFC8FABE6E6E647C42E /* LocoKitCoreBridge.swift in Sources */,
+				9CCD8885CA5A343078FCACC9B468F8CB /* LocomotionManager.swift in Sources */,
+				9934A15C357C6FC9E668B6DA9862A060 /* LocomotionSample.swift in Sources */,
+				1FF79CDA4A3B230C02F53906D1D52A97 /* Merge.swift in Sources */,
+				E87ED24844AAD7AB7F090DF37EF00796 /* MergeScores.swift in Sources */,
+				6F3B1B2787905B4746BA5A5389ABE190 /* MiscTools.swift in Sources */,
+				FA19604ACD5522F8FFB9622F1A7DDE72 /* MLClassifier.swift in Sources */,
+				791A37F0149F731808CF17D8B4A75080 /* MLClassifierManager.swift in Sources */,
+				C6CC1A5793004066EB630B26282C5062 /* MLCompositeClassifier.swift in Sources */,
+				BCC1478D40834580AB8A7EDCBBF78F1E /* MLModel.swift in Sources */,
+				927E56C155652E53B1BF0173B30F826A /* MLModelSource.swift in Sources */,
+				8351FE51AE8E6C920602554F429B79D7 /* MutableActivityType.swift in Sources */,
+				7F5164077DD8C1CDE7CD7BB15C3672A7 /* NotificationNames.swift in Sources */,
+				7BCF7F2917D264E588B990E5C2896F85 /* Path.swift in Sources */,
+				ED4A5A0C5B930FD1804FDA9AF173DA62 /* PersistentSample.swift in Sources */,
+				09B5EBB139872633634F0AC0F637F92E /* RecordingState.swift in Sources */,
+				C5408AE26E63A1B3A1002DDEA8BEABA5 /* RowCopy.swift in Sources */,
+				17BC362DAC479F3718FD41B7189970EC /* StringTools.swift in Sources */,
+				6BBBBD736256999F30D86B135AFEB7A8 /* TimelineClassifier.swift in Sources */,
+				5FAE410E6BAA8724B8BC0EFD7BA1DD26 /* TimelineItem.swift in Sources */,
+				EB0DB37CB88721FD70D9CBEE08FAA3E0 /* TimelineObject.swift in Sources */,
+				155570771195BB12317FA005CD2708AC /* TimelineProcessor.swift in Sources */,
+				455B32DE281B0D37951C5872457E299C /* TimelineRecorder.swift in Sources */,
+				52D5CD986BE7FAB8D592D78926AD0844 /* TimelineSegment.swift in Sources */,
+				B3F65AE4334FD81217D5D3C3015411DE /* TimelineStore.swift in Sources */,
+				27326CFE6483A7E3C1F4E15D92C6E4DB /* TimelineStore+Migrations.swift in Sources */,
+				538AC13364217B01609F146E1E13104C /* TrustAssessor.swift in Sources */,
+				297DCACF683A5DB3FCACFB6C329428C7 /* Visit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3766A9FD85FCC63CCA52DCA39C49574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51367883BB4113C6F5651228549EBA0A /* 2DTensorSlice.swift in Sources */,
+				9718F84EFF10C580A0AD23F950D0117E /* Arithmetic.swift in Sources */,
+				700B7A7C5881D9982528BD0485AF607A /* Auxiliary.swift in Sources */,
+				75A3AF152177B09F5B8690B2738DA025 /* Complex.swift in Sources */,
+				249E51765D631E48CBB8DABE46CBCA44 /* ComplexArithmetic.swift in Sources */,
+				20D46EF1C462DA3453B5A463D097B34D /* ComplexArray.swift in Sources */,
+				DDFD09FECE4CDEDDE03C34228FDB5EA2 /* ComplexArrayRealSlice.swift in Sources */,
+				53486B5CEFE3231E8A21A6AB1FA794D1 /* ComplexArraySlice.swift in Sources */,
+				326BBB640D5340086B65A84F20430802 /* DSP.swift in Sources */,
+				25314C3A239482BA8C6AFE7430E17996 /* Exponential.swift in Sources */,
+				CA120459AA4586AF9D0165E236345120 /* FFT.swift in Sources */,
+				F5AE9A64B2175E547162AF0F3DF54DE0 /* Hyperbolic.swift in Sources */,
+				97873AB0932D4DDBDFCD4D8968F7093E /* Interval.swift in Sources */,
+				07F79E3B917827C3D21342F66A6FA152 /* LinearOperators.swift in Sources */,
+				541D418E52F6B06A7EF6C7818896B446 /* LinearType.swift in Sources */,
+				C8F7A66E4B7F231527DCCC5994EE8E72 /* Matrix.swift in Sources */,
+				6A84D2F9CA1FC5DAB879A1F945CE72A1 /* MatrixArithmetic.swift in Sources */,
+				9A33A11C418366708FD77D2C68E63560 /* MatrixSlice.swift in Sources */,
+				D5657D461B5B6AB423A13CEA21DD0DDD /* PointerUtilities.swift in Sources */,
+				D6C22528EE9BB4D0A84E8C0AEFC80121 /* QuadraticType.swift in Sources */,
+				35988181EE69B5CB61CCD98EEF31DE59 /* Real.swift in Sources */,
+				0B2775C726A9493E4B4FF9BBD70DBCE5 /* Sequence.swift in Sources */,
+				DF4B0A700721EF2EF7B93818F131466C /* Span.swift in Sources */,
+				0BFDB17BFEA6850A266678722A096460 /* Tensor.swift in Sources */,
+				A21813CFA51A7F71F35A02D65D9FF29D /* TensorSlice.swift in Sources */,
+				CEA73A9E73DCB39606E78D8E4C81EFB2 /* TensorType.swift in Sources */,
+				382079FF44975429E30502FBD8BEF666 /* Trigonometric.swift in Sources */,
+				6AE6B8B5B4BEFC57C9689336814DAAC4 /* Upsurge-dummy.m in Sources */,
+				DB24CAC55A75233AFF1A1DE64A3D7B18 /* Value.swift in Sources */,
+				47E57AF21148212E841DB232EAF4FB4E /* ValueArray.swift in Sources */,
+				031C0BFEACB5DC69E18B4D4E5D81CA34 /* ValueArraySlice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E3766D633663C1464BC11B4A075C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7780B8A59DC40412C940C54E785FE2DE /* Pods-AppleMapsFirstProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1138473BA3C84448153444407E3A77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C75D5DBA22652A77D6915D313852D0 /* Association.swift in Sources */,
+				3D0DFB833878A2D83EB7C72BBADB24C4 /* AssociationAggregate.swift in Sources */,
+				B867CBBA2B690C7CABEBA244AC7C93FC /* BelongsToAssociation.swift in Sources */,
+				0347302333A64A122C532CE2B8C4E739 /* CGFloat.swift in Sources */,
+				6C4C36E33DD55BA90DF455CB00C7B062 /* Column.swift in Sources */,
+				C9BEAAA92A34FB153F52C8E455CB344E /* Combine.swift in Sources */,
+				8A8F056524D0E00C11E6198E9650CEFD /* CompactMap.swift in Sources */,
+				3D97CD4BC4D1DD5B17F64311AD908F0A /* Configuration.swift in Sources */,
+				A76955937BA4810D9AEF190D5F551F3C /* Cursor.swift in Sources */,
+				B5D37F562305C10B3AA4B7FF4A61FA7F /* Data.swift in Sources */,
+				0EC7D3EB3FB71FBD4F7FF778CC729C72 /* Database.swift in Sources */,
+				7887DA2F61770CD60EA3013A716F8B1B /* Database+Schema.swift in Sources */,
+				BA684E52AB5E8F0ECAF96A62DDC7C2FB /* Database+Statements.swift in Sources */,
+				E434545DB9B9648A7A9D50496C2840EC /* DatabaseCollation.swift in Sources */,
+				75375F92889B2E2D2484D81F2E86A667 /* DatabaseDateComponents.swift in Sources */,
+				8C18C4BDA93C9FF51E9BA66C54613148 /* DatabaseError.swift in Sources */,
+				45ED3BCD69A0CB5671866FCC7483BCA4 /* DatabaseFunction.swift in Sources */,
+				BD746983A3E7A683FA070D93C57C8E9D /* DatabaseMigrator.swift in Sources */,
+				7E2311CC7D20A5FAF6B47BF8705CD805 /* DatabasePool.swift in Sources */,
+				710489B09C8F69492A28F06F5A8A4C7B /* DatabasePromise.swift in Sources */,
+				2CF783A8BDD2659C17DACED53AFDA9B2 /* DatabaseQueue.swift in Sources */,
+				E9133AA41DD48895885FA32CC815219E /* DatabaseReader.swift in Sources */,
+				086F38401CE5BE10B286F5800FD21E46 /* DatabaseRegion.swift in Sources */,
+				0538B28A29F98978AE5078A62A98EED9 /* DatabaseRegionObservation.swift in Sources */,
+				91552CBA5A8544B2BE53A82DA8EFB9AA /* DatabaseResult.swift in Sources */,
+				C52736941B58C66BB88AC02B91376413 /* DatabaseSchemaCache.swift in Sources */,
+				E782A73EFB4EDB3E71241E1DDF8FB84A /* DatabaseSnapshot.swift in Sources */,
+				9B862B1E78B767CEFDE0383BE5FA44C4 /* DatabaseValue.swift in Sources */,
+				2FC02E933EC4466A287086F2049993FA /* DatabaseValueConversion.swift in Sources */,
+				B0284E42049182947FFB722861EBD4CC /* DatabaseValueConvertible.swift in Sources */,
+				19E1FC636695C6F519D01E2606BC44A4 /* DatabaseValueConvertible+Decodable.swift in Sources */,
+				82A76DA58F7DDB32EC3369E4107DCF94 /* DatabaseValueConvertible+Encodable.swift in Sources */,
+				88CAA3B2A43D14C04A5976AEAEE589E1 /* DatabaseValueConvertible+RawRepresentable.swift in Sources */,
+				D4DB1D66C57293B353CD4B2978F7149A /* DatabaseValueConvertible+ReferenceConvertible.swift in Sources */,
+				895625CA579C3D9A7573CD73A1CA1FEC /* DatabaseWriter.swift in Sources */,
+				69AFB8EE5D7B252DCA8059AC949F52E6 /* Date.swift in Sources */,
+				780F49385E0F542053E8458F6E2D17D6 /* EncodableRecord.swift in Sources */,
+				2C52BA8F0A67595721F9A3CD2CC192D4 /* EncodableRecord+Encodable.swift in Sources */,
+				4AA6B01CE47A7CB705872E0CF1BA1E8B /* Fetch.swift in Sources */,
+				E82A0DD9F8CA5C3D39D757C62CF9D205 /* FetchableRecord.swift in Sources */,
+				3C70450A533594AE427906B623891436 /* FetchableRecord+Decodable.swift in Sources */,
+				0F21F8D3F4225F09BF3BD44B170F7D47 /* FetchableRecord+TableRecord.swift in Sources */,
+				0E85635D62BC26BDA4BD996FD0186E56 /* FetchedRecordsController.swift in Sources */,
+				CFF4C787CA3C7C87E1FD8889B95892D3 /* FetchRequest.swift in Sources */,
+				8906B9C4B6BAD6C56288C1BCAC776EC3 /* FTS3.swift in Sources */,
+				15CC5B7CDFA3401E9D4B5191F6E552FF /* FTS3+QueryInterface.swift in Sources */,
+				12EEACADC81AFD0E775F6C65455784B0 /* FTS3Pattern.swift in Sources */,
+				180D19C3FB2C35A20A737865CFBAD930 /* FTS3TokenizerDescriptor.swift in Sources */,
+				295C020690674448AF8D47B4BD700D42 /* FTS4.swift in Sources */,
+				45A9CA73768CFE4C2E6605CC12A34678 /* FTS5.swift in Sources */,
+				A7D337BC33F968ADC9114144B137D2D5 /* FTS5+QueryInterface.swift in Sources */,
+				1FBF366B42872675E9AF89A22EAE236F /* FTS5CustomTokenizer.swift in Sources */,
+				1478C2BEF4565D778AFAFBA5689B2257 /* FTS5Pattern.swift in Sources */,
+				2A653E01796FA3F625539FD8C138D947 /* FTS5Tokenizer.swift in Sources */,
+				B65F2C9B53749B45B758CBBCA4D09CC1 /* FTS5TokenizerDescriptor.swift in Sources */,
+				E58BCE89DCC88F73385D51CA9BBDF8E5 /* FTS5WrapperTokenizer.swift in Sources */,
+				B276C2DEA736D92B07F01C3642A89318 /* GRDB-4.0.swift in Sources */,
+				71203F446F1E021C72E6C281FA1C02D3 /* GRDB.swift-dummy.m in Sources */,
+				503101D5DA9174200570BD5A834A3C52 /* HasManyAssociation.swift in Sources */,
+				F34133113AF57000C97C150EA8B0D6E8 /* HasManyThroughAssociation.swift in Sources */,
+				512D71282D0B2896004F1CA1FCEBEB01 /* HasOneAssociation.swift in Sources */,
+				62B192394E29FFDC27D1A2F16FDCFDE9 /* HasOneThroughAssociation.swift in Sources */,
+				1A74A8773E1FE7E1C8C6FEE0C1AFD891 /* Inflections.swift in Sources */,
+				1813825EEB4CC1F6916691B6EC6B2E01 /* Inflections+English.swift in Sources */,
+				15448B84C7DDC53962E68C7A4C5A5BCD /* KeyPathRefining.swift in Sources */,
+				85B5E81EBA6E389245D820F0B58C58D3 /* LockedBox.swift in Sources */,
+				55A6121F8B8968E5D6ECDF074600E619 /* Map.swift in Sources */,
+				DF2657D405B8CFA20B1A47C50C0B880F /* Migration.swift in Sources */,
+				7CBFF74D9A00AFD8685C51CB37F16145 /* NSData.swift in Sources */,
+				31D58C15311CC6E6D4D89A68CD88147F /* NSNull.swift in Sources */,
+				563985C5330C1AA8995C29E9AD20B911 /* NSNumber.swift in Sources */,
+				335B8403C85D284C8EC98C99B50D7636 /* NSString.swift in Sources */,
+				1DA4B3EAF04B0CEADEBA158F0706AAFC /* OrderedDictionary.swift in Sources */,
+				95700884EF96B019A354B02BFCA5D8BD /* PersistableRecord.swift in Sources */,
+				F5C1975D6CB9AE72637A4FCB54B09600 /* Pool.swift in Sources */,
+				CED2B7B68DCCDD8CA8712A9B2D351CC7 /* QueryInterfaceRequest.swift in Sources */,
+				3C2431501BAB73359820F579BEA44696 /* QueryInterfaceRequest+Association.swift in Sources */,
+				99382BEE36AAD3A622C36E8D126CD1FE /* ReadWriteBox.swift in Sources */,
+				46CC7A81F1B416E013C1C7CE8A1807E1 /* Record.swift in Sources */,
+				FC90AA37C4527F1C0632BFCB9BB09D6B /* RemoveDuplicates.swift in Sources */,
+				7872D8E094A6EDC444C6C08A09703CE0 /* RequestProtocols.swift in Sources */,
+				8E6D36E40F0B9AD94C0B2F62543346EB /* Row.swift in Sources */,
+				A5B8712E62E7EBA7297D2E1D2198116F /* RowAdapter.swift in Sources */,
+				EBEA518A97486E6ACCBC714BFF52A604 /* SchedulingWatchdog.swift in Sources */,
+				F06981688B16F385426ADEE74F4B8A04 /* SerializedDatabase.swift in Sources */,
+				9024642D8AAB993EBD7EAE9BBA7917EF /* SQLAssociation.swift in Sources */,
+				3B14224F1B3916BC7D7AAE4545DF6644 /* SQLCollatedExpression.swift in Sources */,
+				011304869F415ED4276713DCF7E355B9 /* SQLCollection.swift in Sources */,
+				5708183D95E362101F08231617EB9286 /* SQLExpressible.swift in Sources */,
+				FB7C03A2EB51737E1D7EC4711D181989 /* SQLExpression.swift in Sources */,
+				E68348367FBA1BD504A7DB95CFDC954C /* SQLExpression+QueryInterface.swift in Sources */,
+				641218E5EF048689CFDD6908AEDE2331 /* SQLForeignKeyRequest.swift in Sources */,
+				A6C6F43E3ABA74E46D0B8A1D4B7D247A /* SQLFunctions.swift in Sources */,
+				BA774310528108FE49E04C20FDB383C0 /* SQLGenerationContext.swift in Sources */,
+				9534318D19FCB3C77A8E822C0897DCED /* SQLInterpolation.swift in Sources */,
+				E9237FFF8EA99508BFA32F48CCC67D58 /* SQLInterpolation+QueryInterface.swift in Sources */,
+				E97148C3C1AE62BB372515408248C529 /* SQLiteDateParser.swift in Sources */,
+				F1D8213F44D8B4D6F7F50BC0E1B48705 /* SQLLiteral.swift in Sources */,
+				10EB6AC8883AC198AADAF0FAA633449F /* SQLOperators.swift in Sources */,
+				8EF316DEA2A0D58CA45EB4D453D0A84F /* SQLOrdering.swift in Sources */,
+				32DD81A7771646C13FEBB74C3A6402A5 /* SQLQuery.swift in Sources */,
+				22498FAC7319AE45C0BE18D98590C580 /* SQLQueryGenerator.swift in Sources */,
+				E70A57C27DD3EA8431326FF384F135E2 /* SQLRelation.swift in Sources */,
+				7CB450D444A04E21E85CE71A73E7DA48 /* SQLRequest.swift in Sources */,
+				462622452CEC4B3D2899EE36E0612D74 /* SQLSelectable.swift in Sources */,
+				A57B926609BAAFB44533E6BD38372296 /* SQLSelectable+QueryInterface.swift in Sources */,
+				486D33D0AFFD4D04E44EA2841DA45EE0 /* SQLSpecificExpressible+QueryInterface.swift in Sources */,
+				ECD9686D07C8D6C323FAC31E9F9DEE4F /* StandardLibrary.swift in Sources */,
+				5DD232DA697ACF8BE5A0A81C75F63815 /* Statement.swift in Sources */,
+				E2D4B5BE06E5A599EDCB77CD36100265 /* StatementAuthorizer.swift in Sources */,
+				D0758834900D427861B0AB8240176466 /* StatementColumnConvertible.swift in Sources */,
+				804C2F64DF9F46EB28E1E3F02257C328 /* TableDefinition.swift in Sources */,
+				7F6AA4073B2469E99E1D4C94569E564E /* TableRecord.swift in Sources */,
+				CA6B38E98DED5C7A6BB4EC4BA4349ACD /* TableRecord+Association.swift in Sources */,
+				02FC449BFDCBF8CCE87CCB10B7C3C8F1 /* TableRecord+QueryInterfaceRequest.swift in Sources */,
+				91CF454E02F8C9B2765D49F701BEFDC5 /* TransactionObserver.swift in Sources */,
+				A3F48ED8FD7C8AE95A2673FF1E543435 /* URL.swift in Sources */,
+				3F227910B0B1BF6839504D564DCFCC44 /* Utils.swift in Sources */,
+				218E6CA1F0FE942EE2ED160DAB206235 /* UUID.swift in Sources */,
+				5622EA158DADFB1980223B2884FEB7EC /* ValueObservation.swift in Sources */,
+				FE4AD7D8E357F91D3B906D084D7649A5 /* ValueObservation+Count.swift in Sources */,
+				A1A9A813D78173B5C452CCF760EFC08B /* ValueObservation+DatabaseValueConvertible.swift in Sources */,
+				13D065EEF688B606D9E83083FC1DDDC8 /* ValueObservation+FetchableRecord.swift in Sources */,
+				F7CF70AA19A8071055C883365E39DBD0 /* ValueObservation+MapReducer.swift in Sources */,
+				5B314585CB58687498901D2116E8861A /* ValueObservation+Row.swift in Sources */,
+				4CCAA8603FD2141FB03B9E32018A81EA /* ValueObserver.swift in Sources */,
+				3EE62BA5472FD4ADD994D5CB5F4E32EC /* ValueReducer.swift in Sources */,
+				64CEF4F52D6E58FDC809B55DEB0F4743 /* VirtualTableModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D2C1FFC0FD6435A056536D629B2B998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocoKitCore;
+			target = 7248CFD42349B334F2AA6A390906D204 /* LocoKitCore */;
+			targetProxy = 678BEC689A9C39F65F1C481AE5BBC017 /* PBXContainerItemProxy */;
+		};
+		423C748E7AA3E9F619F66E6E4DB737C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Upsurge;
+			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
+			targetProxy = C58738BB9AB198B008E9B9A455CC0719 /* PBXContainerItemProxy */;
+		};
+		999E08BBA76F3899B1AF6DA12874AB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRDB.swift;
+			target = 0A86C228CFCBC35A1FD284274ED0930F /* GRDB.swift */;
+			targetProxy = 069F793ABF764EFA986746E1CA2C624B /* PBXContainerItemProxy */;
+		};
+		B17A6F958B3DE4ECBCE6BC7BB1EB8963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRDB.swift;
+			target = 0A86C228CFCBC35A1FD284274ED0930F /* GRDB.swift */;
+			targetProxy = 9E21BEB475445B25144BBB0C70A423AD /* PBXContainerItemProxy */;
+		};
+		B40CEA16EE30847EA8B0D3ACFCEB7696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocoKit;
+			target = 4EAACCA1B1FF2EFE22FBA9E14D36055C /* LocoKit */;
+			targetProxy = 4038ED8830DAB2864A6BC38FA8276664 /* PBXContainerItemProxy */;
+		};
+		B4E04C444750081E5A8F8D959CF51CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocoKitCore;
+			target = 7248CFD42349B334F2AA6A390906D204 /* LocoKitCore */;
+			targetProxy = 5594AADA5F6196212989D3E0027BA71C /* PBXContainerItemProxy */;
+		};
+		B5C669BC113E5CF1AA389E177C84444B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Upsurge;
+			target = 5BFE7CD58C2C80280F96E42DFEDC5803 /* Upsurge */;
+			targetProxy = 09F17126AA727D6C086C6FCC189AFF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B2515D78E09960F86E61664A4932AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4727C23876280B09B21FEB2E37F9D60 /* Pods-AppleMapsFirstProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleMapsFirstProject/Pods-AppleMapsFirstProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleMapsFirstProject/Pods-AppleMapsFirstProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22C4638C5ED27D0B6A81ACD44935B675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586080C33A7E7DFE6BAEB7783847E81D /* LocoKitCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A361EA5BC49A581BA97E3E8E9E71D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A1335539049633642E34E65CFF8FED /* Pods-AppleMapsFirstProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleMapsFirstProject/Pods-AppleMapsFirstProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleMapsFirstProject/Pods-AppleMapsFirstProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		520FFD4EA98494591786DD866CCC5006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB5A18DA2DD009A7532B49740F1EE13 /* GRDB.swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GRDB.swift/GRDB.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRDB.swift/GRDB.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GRDB.swift/GRDB.swift.modulemap";
+				PRODUCT_MODULE_NAME = GRDB;
+				PRODUCT_NAME = GRDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5771A538A72E6CDC6360673C8BDFB51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43FED9C9A71ED686F31C7E7BC28D3AF2 /* Upsurge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Upsurge/Upsurge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Upsurge/Upsurge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Upsurge/Upsurge.modulemap";
+				PRODUCT_MODULE_NAME = Upsurge;
+				PRODUCT_NAME = Upsurge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		640B39F3D40BF29ABD4F18C182A36D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00FF2E69A048D1D67A18602A17F99DA /* Upsurge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Upsurge/Upsurge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Upsurge/Upsurge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Upsurge/Upsurge.modulemap";
+				PRODUCT_MODULE_NAME = Upsurge;
+				PRODUCT_NAME = Upsurge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A149AE2510D26B751F48E08A5F7FC1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC1EC176680C2D70E1741838BA88939 /* LocoKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocoKit/LocoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocoKit/LocoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocoKit/LocoKit.modulemap";
+				PRODUCT_MODULE_NAME = LocoKit;
+				PRODUCT_NAME = LocoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3C5790455ABEF17B0545F7933BE607D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE02811E297F65080D6AAA470C72C23 /* LocoKitCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7184788DF6E86BACCDCFCED32CF7F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0801D081FF779972831A2E9DD332458 /* GRDB.swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GRDB.swift/GRDB.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRDB.swift/GRDB.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GRDB.swift/GRDB.swift.modulemap";
+				PRODUCT_MODULE_NAME = GRDB;
+				PRODUCT_NAME = GRDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2ACB5CD305E8807C62035E4F545E48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CFF0EE6EFF9D586997F4D835DAB87E /* LocoKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocoKit/LocoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocoKit/LocoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocoKit/LocoKit.modulemap";
+				PRODUCT_MODULE_NAME = LocoKit;
+				PRODUCT_NAME = LocoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211E7AE77D8060FB22AD358E4A67D53C /* Build configuration list for PBXNativeTarget "Pods-AppleMapsFirstProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A361EA5BC49A581BA97E3E8E9E71D99 /* Debug */,
+				00B2515D78E09960F86E61664A4932AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02798A12C72F069A02BA995A540B6B /* Build configuration list for PBXNativeTarget "Upsurge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640B39F3D40BF29ABD4F18C182A36D54 /* Debug */,
+				5771A538A72E6CDC6360673C8BDFB51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2642F5437F5DD6A65EDD5C06C71CB0 /* Build configuration list for PBXAggregateTarget "LocoKitCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C5790455ABEF17B0545F7933BE607D /* Debug */,
+				22C4638C5ED27D0B6A81ACD44935B675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C5502CA63C2CE26463EF683DFD8057 /* Build configuration list for PBXNativeTarget "GRDB.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7184788DF6E86BACCDCFCED32CF7F03 /* Debug */,
+				520FFD4EA98494591786DD866CCC5006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C773E120367ADC1FF1251D7282516034 /* Build configuration list for PBXNativeTarget "LocoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A149AE2510D26B751F48E08A5F7FC1DB /* Debug */,
+				F2ACB5CD305E8807C62035E4F545E48A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
